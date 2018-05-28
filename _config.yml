@@ -1,0 +1,15 @@
+repository: https://github.com/lispkorea/lispkorea.github.io
+gems:
+- jekyll-github-metadata
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji
+
+
+# ref: https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /blog/:title
+
+sass:
+  style: compressed
+  sass_dir: _sass

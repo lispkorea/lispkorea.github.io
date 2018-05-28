@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>hellworld</title>
+  <link rel="stylesheet" href="{{"/assets/css/main.css" | prepend: site.baseurl }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body>
+  <nav class="navbar is-transparent">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://lispkorea.github.io">
+        <img src="{{"/assets/images/lisplogo_alien_256.png" | prepend: site.baseurl }}" width="100" height="50">
+      </a>
+      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="/blog">
+          Blog
+        </a>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="contents">
+    {{ content }}
+  </div><!-- /.contents -->
+</body>
+</html>
