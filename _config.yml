@@ -1,4 +1,9 @@
+title: Lisp Korea
+url: http://lispkorea.github.io
+description: lisp korea
+
 repository: https://github.com/lispkorea/lispkorea.github.io
+
 gems:
 - jekyll-github-metadata
 - jekyll-mentions

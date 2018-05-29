@@ -5,6 +5,7 @@
   <title>hellworld</title>
   <link rel="stylesheet" href="{{"/assets/css/main.css" | prepend: site.baseurl }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 
@@ -23,16 +24,24 @@
 
     <div id="navbarExampleTransparentExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item" href="/blog">
-          Blog
+        <a class="navbar-item" href="/posts">
+          Posts
+        </a>
+        <a class="navbar-item" href="/feed.xml">
+          Feed
         </a>
       </div>
 
     </div>
   </nav>
 
-  <div class="contents">
-    {{ content }}
-  </div><!-- /.contents -->
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        {{ content }}
+      </div><!-- /.contents -->
+    </div>
+  </section>
+
 </body>
 </html>
