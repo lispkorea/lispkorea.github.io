@@ -2,52 +2,72 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>hellworld</title>
+  <title>lispkorea</title>
   <link rel="stylesheet" href="{{"/assets/css/main.css" | prepend: site.baseurl }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-   <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script> 
+   <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
 </head>
 
 
-<body>
-  <nav class="navbar is-transparent">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="https://lispkorea.github.io">
-        <img src="{{"/assets/images/lisplogo_alien_256.png" | prepend: site.baseurl }}" width="100" height="50">
-      </a>
-      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-        <span></span>
-        <span></span>
-        <span></span>
+<body class="layout-documentation page-layout">
+
+  <div class="container">
+    <div class="columns is-gapless">
+      <div class="column">
+        <a  href="/">
+          <h1 class="title">
+            Lisp Korea
+          </h1>
+          <h2 class="subtitle">
+            Korea Lisp Community
+          </h2>
+        </a>
       </div>
     </div>
+  </div>
 
-    <div id="navbarExampleTransparentExample" class="navbar-menu">
-      <div class="navbar-start">
-        <a class="navbar-item" href="/posts">
-          Posts
-        </a>
+  <nav class="navbar is-transparent is-centered has-shadow is-spaced">
+    <div class="container">
+      <div class="navbar-brand">
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
 
-      <div class="navbar-end">
-        <a class="navbar-item" href="/feed.xml">
-          <i class="fas fa-rss-square"></i>
-        </a>
-        <a class="navbar-item " href="https://github.com/lispkorea  ">
-          <i class="fab fa-github"></i>
-        </a>
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+
+          <a class="navbar-item" href="/posts">
+           <span class="icon has-text-primary">
+             <i class="fas fa-book"></i>
+           </span>
+           <span>Posts</span>
+         </a>
+
+        </div>
+
+        <div class="navbar-end">
+          <a class="navbar-item" href="/feed.xml">
+            <i class="fas fa-rss-square"></i>
+          </a>
+          <a class="navbar-item " href="https://github.com/lispkorea  ">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
       </div>
     </div>
   </nav>
 
-  <section class="section">
-    <div class="container">
+  <div class="container">
       <div class="content">
         {{ content }}
       </div><!-- /.contents -->
-    </div>
-  </section>
+  </div>
+
+
 
 </body>
 </html>
