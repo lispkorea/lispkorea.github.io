@@ -4,7 +4,7 @@ description: lisp korea
 
 repository: https://github.com/lispkorea/lispkorea.github.io
 
-gems:
+plugins:
 - jekyll-github-metadata
 - jekyll-mentions
 - jekyll-redirect-from
