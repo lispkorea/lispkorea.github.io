@@ -1,15 +1,15 @@
-title: Lisp Korea
-url: http://lispkorea.github.io
-description: lisp korea
+title: "Lisp Korea"
+url: "http://lispkorea.github.io"
+description: "lisp korea"
 
 repository: https://github.com/lispkorea/lispkorea.github.io
 
 plugins:
-- jekyll-github-metadata
-- jekyll-mentions
-- jekyll-redirect-from
-- jekyll-sitemap
-- jemoji
+   - jekyll-mentions
+   - jemoji
+   - jekyll-redirect-from
+   - jekyll-sitemap
+   - jekyll-feed
 
 Paths :
     home: /
