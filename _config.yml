@@ -11,6 +11,12 @@ gems:
 - jekyll-sitemap
 - jemoji
 
+Paths :
+    home: /
+    posts: /posts
+    resources: /res
+    feed: /feed
+    commonlisp: /commonlisp
 
 # ref: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /blog/:title
