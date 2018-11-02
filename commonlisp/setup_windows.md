@@ -2,45 +2,28 @@
 layout: default
 ---
 
-
-# windows package manager
 ## [scoop](https://scoop.sh/)
-
+## [sbcl](http://www.sbcl.org/)
 * Win + R : powershell
 
 ``` powershell
-    set-executionpolicy remotesigned -s currentuser
+    Set-ExecutionPolicy RemoteSigned -scope CurrentUser
     iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ```
 
-* Win + R : cmd
-
-``` cmd
-    scoop install aria2
-    scoop install gow
-```
-
-
-
-# Common Lisp
-## [sbcl](http://www.sbcl.org/)
 
 * Win + R : cmd
 
 ``` cmd
-    scoop install sbcl
-```
+C:\Users\lisper> cd /
 
-
-## [quicklisp](https://www.quicklisp.org/)
-
-* Win + R : cmd
-
-``` cmd
-C:\Users\pyoung> cd /
 C:\> mkdir sbcl
 
 C:\sbcl> cd sbcl
+C:\sbcl> scoop install aria2
+C:\sbcl> scoop install gow
+C:\sbcl> scoop install sbcl
+
 C:\sbcl> curl -O https://beta.quicklisp.org/quicklisp.lisp
 C:\sbcl> sbcl --load quicklisp.lisp
 
@@ -50,11 +33,7 @@ C:\sbcl> sbcl --load quicklisp.lisp
 
 C:\sbcl> sbcl
 
-* (print "Helloworld")
-
-"Helloworld"
-"Helloworld"
-
+* (ql:quickload "slynk")
 * (quit)
 ```
 
