@@ -29,10 +29,6 @@ C:\sbcl> sbcl --load quicklisp.lisp
 
 * (quicklisp-quickstart:install)
 * (ql:add-to-init-file)
-* (quit)
-
-C:\sbcl> sbcl
-
 * (ql:quickload "slynk")
 * (quit)
 ```
