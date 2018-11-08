@@ -17,6 +17,9 @@ Paths :
     resources: /res
     feed: /feed
     commonlisp: /commonlisp
+    racket: /racket
+    clojure: /clojure
+
 
 # ref: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /blog/:title
