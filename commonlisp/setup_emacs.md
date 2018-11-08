@@ -12,6 +12,7 @@ layout: default
 
 
 ``` emacs-lisp
+
 ;; basic setup
 (setq make-backup-files nil)
 (fset 'yes-or-no-p 'y-or-n-p)
@@ -38,12 +39,15 @@ layout: default
   :ensure t
   :config
   (setq inferior-lisp-program (string-trim (shell-command-to-string "which sbcl"))))
+
 ```
 
 * 이제, 이멕스를 실행하고, 다음 명령어를 입력한다.
 
 ```
+
     M-x sly
+
 ```
 
 # [Back](./)

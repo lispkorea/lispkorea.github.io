@@ -2,10 +2,16 @@
 layout: default
 ---
 
+* [brew](https://brew.sh/index_ko)
+
+
 ```
 
-$ sudo apt-get install curl -y
-$ sudo apt-get install sbcl -y
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ brew update
+$ brew upgrade
+$ brew doctor
+$ brew install sbcl
 
 $ curl -O https://beta.quicklisp.org/quicklisp.lisp
 $ sbcl --load quicklisp.lisp
@@ -16,6 +22,5 @@ $ sbcl --load quicklisp.lisp
 * (quit)
 
 ```
-
 
 # [Back](./)
