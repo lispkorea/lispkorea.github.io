@@ -19,7 +19,7 @@ Paths :
     commonlisp: /commonlisp
     racket: /racket
     clojure: /clojure
-
+    res_bower: /bower_components
 
 # ref: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /blog/:title
