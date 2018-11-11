@@ -16,6 +16,7 @@ Paths :
     posts: /posts
     resources: /res
     feed: /feed
+    k_lisper: /k-lisper
     commonlisp: /commonlisp
     racket: /racket
     clojure: /clojure

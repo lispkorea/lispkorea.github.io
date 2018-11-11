@@ -5,7 +5,7 @@
     <title>lispkorea</title>
     <link rel="stylesheet" href="{{"/assets/css/main.css" | prepend: site.baseurl }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
   </head>
 
@@ -48,25 +48,32 @@
               <span>Posts</span>
             </a>
 
-            <a class="navbar-item" href="{{ site.Paths.commonlisp }}">
-              <span class="icon has-text-primary">
-                <i class="fas fa-book"></i>
-              </span>
-              <span>Common Lisp</span>
-            </a>
-
-            <a class="navbar-item" href="{{ site.Paths.racket }}">
-                <span class="icon has-text-primary">
-                    <i class="fas fa-book"></i>
+            <a class="navbar-item" href="{{ site.Paths.k_lisper }}">
+                <span class="icon is-success">
+                    <i class="fas fa-pastafarianism"></i>
                 </span>
-                <span>Racket</span>
+                <span>K-Lisper</span>
             </a>
 
             <a class="navbar-item" href="{{ site.Paths.clojure }}">
                 <span class="icon has-text-primary">
-                    <i class="fas fa-book"></i>
+                    <img src="{{ site.Paths.resources }}/icon/clojure.png" />
                 </span>
                 <span>Clojure</span>
+            </a>
+
+            <a class="navbar-item" href="{{ site.Paths.commonlisp }}">
+                <span class="icon has-text-primary">
+                    <img src="{{ site.Paths.resources }}/icon/commonlisp.png" />
+                </span>
+                <span>Common Lisp</span>
+            </a>
+
+            <a class="navbar-item" href="{{ site.Paths.racket }}">
+                <span class="icon has-text-primary">
+                    <img src="{{ site.Paths.resources }}/icon/racket.svg" />
+                </span>
+                <span>Racket</span>
             </a>
 
           </div>

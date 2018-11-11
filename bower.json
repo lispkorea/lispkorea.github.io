@@ -12,5 +12,13 @@
     "bootstrap": "^4.1.3",
     "components-font-awesome": "^5.4.2",
     "flag-icon-css": "^3.2.1"
+  },
+  "install": {
+    "path": "libs",
+	"sources": {
+        "bootstrap": [
+            "bower_components/bootstrap/dist/**"
+        ]
+    }
   }
 }
