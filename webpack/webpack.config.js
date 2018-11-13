@@ -1,5 +1,6 @@
 const path = require('path');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const FontminPlugin = require('fontmin-webpack')
 
 module.exports = {
     entry: './src/main.js',
@@ -31,5 +32,9 @@ module.exports = {
     },
     plugins: [
         new ExtractTextPlugin('main.css'),
+        new FontminPlugin({
+            autodetect: true, // automatically pull unicode characters from CSS
+            glyphs: ['\uf0c8' /* extra glyphs to include */],
+        }),
     ]
 };
