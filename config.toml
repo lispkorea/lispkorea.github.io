@@ -14,7 +14,7 @@ feed_filename = "feed.xml"
 
 [markdown]
 highlight_code = true
-highlight_theme = "base16-ocean-dark"
+highlight_theme = "base16-atelierdune-light"
 render_emoji = true
 
 
