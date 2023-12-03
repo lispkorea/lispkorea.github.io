@@ -1,0 +1,8 @@
+{% extends "base.t.html" %}
+
+{% block content %}
+
+<!-- The home page is a section so you need to access section.content -->
+{{ section.content | safe }}
+
+{% endblock %}

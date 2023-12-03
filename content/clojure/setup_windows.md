@@ -1,8 +1,9 @@
----
-layout: default
----
++++
+title = "Setup Windows"
++++
 
 ## [scoop](https://scoop.sh/)
+
 ## [boot](http://boot-clj.com/)
 
 * Win + R : powershell

@@ -1,6 +1,7 @@
----
-layout: default
----
++++
+title = "Setup Emacs"
++++
+
 
 
 ## [emacs](https://www.gnu.org/software/emacs/download.html)

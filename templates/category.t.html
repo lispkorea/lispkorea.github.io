@@ -1,0 +1,29 @@
+{% extends "base.t.html" %}
+
+{% block content %}
+<div id="home">
+
+  <h1 class="title">
+    {{ section.title }}
+  </h1>
+
+  {% for year, pages in section.pages | group_by(attribute="year") %}
+  <div class="entry-group">
+    <div class="entry-year">{{ year }}</div>
+    <ul class="entry-list">
+      {% for page in pages %}
+      <li class="entry-item">
+        <span>{{ page.date | date(format="%Y.%m.%d") }}</span> &raquo;
+        <a href="{{ page.permalink | safe }}">{{ page.title}}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
+
+<div id="sector-content">
+  {{ section.content | safe }}
+</div>
+
+{% endblock content %}

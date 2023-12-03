@@ -1,6 +1,6 @@
----
-layout: default
----
++++
+title = "Setup OSX"
++++
 
 * [brew](https://brew.sh/index_ko)
 

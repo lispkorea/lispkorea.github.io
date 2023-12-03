@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>lispkorea</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="{{ config.extra.paths.feed }}" />
+  <link rel="stylesheet" href="/main.css" />
+  <script defer src="/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({ startOnLoad: true });</script>
+</head>
+
+
+<body class="layout-documentation page-layout">
+
+  <div class="container">
+    <div class="columns is-gapless">
+      <div class="column">
+        <a href="/">
+          <h1 class="title">
+            Lisp Korea
+          </h1>
+          <h2 class="subtitle">
+            Korea Lisp Community
+          </h2>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar is-transparent is-centered has-shadow is-spaced">
+    <div class="container">
+      <div class="navbar-brand">
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <!-- ref: https://fontawesome.com/icons?d=gallery -->
+
+          <a class="navbar-item" href="{{ config.extra.paths.posts }}">
+            <span class="icon has-text-primary">
+              <i class="fas fa-book"></i>
+            </span>
+            <span>Posts</span>
+          </a>
+
+          <a class="navbar-item" href="{{ config.extra.paths.k_lisper }}">
+            <span class="icon is-success">
+              <i class="fas fa-pastafarianism"></i>
+            </span>
+            <span>K-Lisper</span>
+          </a>
+
+          <a class="navbar-item" href="{{ config.extra.paths.clojure }}">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/clojure.png" />
+            </span>
+            <span>Clojure</span>
+          </a>
+
+          <a class="navbar-item" href="{{ config.extra.paths.commonlisp }}">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/commonlisp.png" />
+            </span>
+            <span>Common Lisp</span>
+          </a>
+
+          <a class="navbar-item" href="{{ config.extra.paths.racket }}">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/racket.svg" />
+            </span>
+            <span>Racket</span>
+          </a>
+
+        </div>
+
+        <div class="navbar-end">
+          <a class="navbar-item" href="/feed.xml">
+            <i class="fas fa-rss-square"></i>
+          </a>
+          <a class="navbar-item " href="https://github.com/lispkorea/lispkorea.github.io/">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="content container is-fluid">
+      {% block content %} {% endblock %}
+    </div><!-- /.content -->
+  </div>
+
+</body>
+
+</html>

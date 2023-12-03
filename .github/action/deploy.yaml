@@ -1,0 +1,26 @@
+name: Build and deploy GH Pages
+
+on: 
+ push:
+  branches:
+   - main
+
+jobs:
+  build:
+    name: Publish site
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      # https://github.com/shalzz/zola-deploy-action
+      - name: build_and_deploy
+        uses: shalzz/zola-deploy-action@v0.17.2
+        env:
+          # Target branch
+          PAGES_BRANCH: gh-pages # default is gh-pages
+          TOKEN: ${{ secrets.GITHUB_TOKEN }} # same repo
+          # TOKEN: ${{ secrets.TOKEN }} # other repo
+          # BUILD_DIR: Default is . (current directory)
+          # OUT_DIR:  Default is public
+          GITHUB_HOSTNAME: github.com # default is github.com

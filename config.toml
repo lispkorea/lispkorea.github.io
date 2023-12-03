@@ -1,0 +1,34 @@
+# ref: https://www.getzola.org/documentation/getting-started/configuration/
+
+base_url = "https://lispkorea.github.io"
+title = "Lisp을 좋아하는 사람들의 그룹"
+description = "Lisp을 좋아하는 사람들의 그룹"
+# default_language = "ko"
+
+compile_sass = true
+build_search_index = true
+
+generate_feed = true
+feed_filename = "feed.xml"
+
+
+[markdown]
+highlight_code = true
+highlight_theme = "base16-ocean-dark"
+render_emoji = true
+
+
+[slugify]
+paths = "safe"
+
+
+[extra]
+[extra.paths]
+home = "/"
+posts = "/posts"
+resources = "/res"
+feed = "/feed"
+k_lisper = "/k-lisper"
+commonlisp = "/commonlisp"
+racket = "/racket"
+clojure = "/clojure"
