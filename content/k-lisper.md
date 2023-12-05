@@ -4,7 +4,7 @@ title = "Lisp을 좋아하는 사람들의 그룹"
 
 `Lisp을 좋아하는 사람들의 그룹`(한국 리스퍼)은 2009년 4월 8일에 설립(설립자 장선진)되었으며, 특정 주제나 도서를 정해 스터디하고, 매년 정기 세미나를 개최합니다.
 
-- <https://groups.google.com/forum/#!forum/lisp-korea>
+- [K-Lisper 구글그룹 바로가기](https://groups.google.com/forum/#!forum/lisp-korea)
 
 # 스터디 연혁
 - 2017.12 ~ ????.??: [linear algebra](https://clojure-korea.slack.com/)
@@ -17,7 +17,7 @@ title = "Lisp을 좋아하는 사람들의 그룹"
 - 2013.08 ~ 2013.11: [Clojure Data Analysis Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/clojure-data-analysis-cookbook)
 - 2013.04 ~ 2013.07: [Introduction to Algorithm](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) & [알고리즘 문제해결 전략](http://book.algospot.com/)
 - 2012.08 ~ 2013.03: ~~[Clojure Programming 및 자체자료](https://clojure.or.kr)~~
-- 2012.01 ~ 2012.06: [On Lisp](http://www.paulgraham.com/onlisp.html)
+- 2012.01 ~ 2012.06: [On Lisp](https://github.com/lisp-korea/onlisp)
 - 2010.10 ~ 2011.10: 컴퓨터 프로그램의 구조와 해석([Structures and Interpretation of Computer Program](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html) 번역판)
 - 2010.07 ~ 2010.10: [Programming Clojure](https://pragprog.com/titles/shcloj3/programming-clojure-third-edition/)
 - 2010.03 ~ 2010.03: Common Lisp Library
