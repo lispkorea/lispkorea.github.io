@@ -6,5 +6,6 @@ title = "lispkorea.github.io"
 
 - [lisper](lisper)
 - [book](book)
+- [video](video)
 - [advent-calendar-jp](advent-calendar-jp)
 - [greenlabs](greenlabs)
