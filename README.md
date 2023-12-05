@@ -6,6 +6,11 @@
 zola serve --open
 ```
 
+## bigfile
+
+- pdf같이 파일 크기가 큰것은 이쪽에 푸시
+  - [lispkorea/lispkorea.github.io-resource](https://github.com/lispkorea/lispkorea.github.io-resource)
+
 ## resource
 
 | library     | version |
@@ -19,6 +24,20 @@ zola serve --open
 | --------------- |
 | Droid+Sans+Mono |
 | Noto+Sans+KR    |
+
+## Mermaid
+
+- [doc](https://mermaid.js.org/intro/)
+
+```
+{% mermaiddiagram() %}
+flowchart TB
+    A --> C
+    A --> D
+    B --> C
+    B --> D
+{% end %}
+```
 
 ## ref
 
