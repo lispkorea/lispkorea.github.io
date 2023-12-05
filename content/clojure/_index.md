@@ -11,6 +11,10 @@ title = "Clojure"
   - ~~초대장은 [여기에 있어요](https://clojure-korea-invitation.herokuapp.com/)~~
 - 온라인에서 코드를 실행시켜보세요 - [repl.it](https://repl.it/languages/clojure)
 
+## cheatsheet
+
+[clojure](https://jafingerhut.github.io/cheatsheet/clojuredocs/cheatsheet-tiptip-no-cdocs-summary.html) / [clojurescript](https://cljs.info/cheatsheet/)
+
 ## deprecated
 
 - ~~문제를 풀어 실력을 향상시켜보세요 - [4Clojure](http://www.4clojure.com/)~~

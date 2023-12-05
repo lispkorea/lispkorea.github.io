@@ -4,6 +4,12 @@ page_template = "category.page.t.html"
 title = "Racket"
 +++
 
+[Racket](https://racket-lang.org/)
+
+## cheatsheet
+
+- [racket-cheat](https://docs.racket-lang.org/racket-cheat/index.html)
+
 ## [setup windows](./setup_windows)
 
 ## [SICP](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html)
