@@ -14,9 +14,10 @@ title = "lisper"
 - 김태균 [ktg](https://bitbucket.org/ktg/workspace/repositories/)
 - 박상규 [guruma](https://github.com/guruma)
 - 박성민 [byulparan](https://github.com/byulparan)
-- 박영식
+- 박영식 [lispro06](https://github.com/lispro06)
 - 양승헌
 - 이민선 [dalzony](https://github.com/dalzony)
 - 이재열 [malkoG](https://github.com/malkoG)
 - 장유현 [zerosumz](https://github.com/zerosumz)
 - 한철희 [cheolhee](https://github.com/cheolhee)
+- ...
