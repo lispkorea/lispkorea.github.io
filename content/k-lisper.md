@@ -11,15 +11,15 @@ title = "Lisp을 좋아하는 사람들의 그룹"
 - 2016.02 ~ 2016.04: [Clojure Web Programming - Web Development with Clojure](https://github.com/lisp-korea/web-development-with-clojure)
 - 2015.08 ~ 2016.01: [Clojure Programming](https://github.com/lisp-korea/ClojureProgramming)
 - 2014.11 ~ 2015.07: [컴퓨터 프로그램의 구조와 해석 Season 2](https://github.com/lisp-korea/sicp2014)
-- 2014.08 ~ 2014.10: [Clojure om](http://clojure.or.kr/wiki/doku.php?id=lecture:om)
+- 2014.08 ~ 2014.10: ~~[Clojure om](http://clojure.or.kr/wiki/doku.php?id=lecture:om)~~
 - 2014.03 ~ 2014.08: [LoL (LetOverLambda)](https://letoverlambda.com/)
-- 2013.11 ~ 2014.02: [Real World Haskell](book.realworldhaskell.org/)
+- 2013.11 ~ 2014.02: [Real World Haskell](https://book.realworldhaskell.org/)
 - 2013.08 ~ 2013.11: [Clojure Data Analysis Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/clojure-data-analysis-cookbook)
 - 2013.04 ~ 2013.07: [Introduction to Algorithm](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) & [알고리즘 문제해결 전략](http://book.algospot.com/)
-- 2012.08 ~ 2013.03: [Clojure Programming 및 자체자료](clojure.or.kr)
+- 2012.08 ~ 2013.03: ~~[Clojure Programming 및 자체자료](https://clojure.or.kr)~~
 - 2012.01 ~ 2012.06: [On Lisp](http://www.paulgraham.com/onlisp.html)
-- 2010.10 ~ 2011.10: 컴퓨터 프로그램의 구조와 해석([Structures and Interpretation of Computer Program](https://mitpress.mit.edu/sites/default/files/sicp/index.html) 번역판)
-- 2010.07 ~ 2010.10: [Programming Clojure](https://pragprog.com/book/shcloj3/programming-clojure-third-edition)
+- 2010.10 ~ 2011.10: 컴퓨터 프로그램의 구조와 해석([Structures and Interpretation of Computer Program](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html) 번역판)
+- 2010.07 ~ 2010.10: [Programming Clojure](https://pragprog.com/titles/shcloj3/programming-clojure-third-edition/)
 - 2010.03 ~ 2010.03: Common Lisp Library
 - 2009.11 ~ 2010.02: [Practical Common Lisp](http://www.gigamonkeys.com/book/)
 - 2009.11 ~ 2009.10: [Common Lisp : A Gentle Introduction to Symbolic Computation](https://www.cs.cmu.edu/~dst/LispBook/)
