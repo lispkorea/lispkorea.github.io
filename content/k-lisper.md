@@ -4,8 +4,6 @@ title = "Lisp을 좋아하는 사람들의 그룹"
 
 `Lisp을 좋아하는 사람들의 그룹`(한국 리스퍼)은 2009년 4월 8일에 설립(설립자 장선진)되었으며, 특정 주제나 도서를 정해 스터디하고, 매년 정기 세미나를 개최합니다.
 
-- [K-Lisper 구글그룹 바로가기](https://groups.google.com/forum/#!forum/lisp-korea)
-
 # 스터디 연혁
 - 2017.12 ~ ????.??: [linear algebra](https://clojure-korea.slack.com/)
 - 2016.02 ~ 2016.04: [Clojure Web Programming - Web Development with Clojure](https://github.com/lisp-korea/web-development-with-clojure)
