@@ -33,3 +33,7 @@ title = "Book"
 - Clojure Programming - Practical Lisp for the Java World
 - [The Joy of Clojure](https://www.manning.com/books/the-joy-of-clojure-second-edition)
   - 한글판: 클로저 프로그래밍의 즐거움
+- Living Clojure
+  - 한글판: 클로저 시작하기
+- Clojure for the Brave and True
+  - 한글판: 누구나 쉽게 배우는 클로저
