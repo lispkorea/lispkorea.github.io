@@ -39,6 +39,12 @@ flowchart TB
 {% end %}
 ```
 
+## zola를 선택한 이유
+
+- 쉽고 빠르게 편집하기 위해.
+- clojure로 작성된 [cryogen](https://github.com/cryogen-project/cryogen)이 있다는걸 알고 있음
+  - 다만, clojure설치하고 의존성 다운받고, 사용법 익히는데 시간이 많이 잡아먹음. 렌더링 시간 역시 zola보다 느림.
+
 ## ref
 
 - <https://www.getzola.org/>
