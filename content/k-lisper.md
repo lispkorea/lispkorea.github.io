@@ -37,12 +37,12 @@ title = "Lisp을 좋아하는 사람들의 그룹"
   - 후기 [1](https://medium.com/happyprogrammer-in-jeju/클로저-소개-제6회-리스프-세미나-발표-dc6700e0821d)
 - 2017.03.17: Clojure Bridge Seoul 주최 - 숙명여자대학교
 - 2016.11.12: [제 5 회 Korea Lisp Seminar 개최](https://d2.naver.com/news/5134096) - D2 STARTUP FACTORY
-  - [김만명: 클로저 개발팀을 위한 지속적인 통합](xx/20161112-1st-session-clojure-ci.pdf)
+  - [김만명: 클로저 개발팀을 위한 지속적인 통합](https://github.com/lispkorea/lispkorea.github.io-resource/blob/main/20161112/20161112-1st-session-clojure-ci.pdf)
   - [김은민: 동신성 프로그래밍하기(자바보다)좋은 Clojure](http://www.slideshare.net/eunminn/clojure-68804824)
   - [김영태: clojure.spec](http://philoskim.github.io/docs/spec/)
   - [김선호: Clojure, 웹개발이 다가 아니에요.](http://www.slideshare.net/SeonhoKim/corelogic-clojure)
   - [박상규: re-frame - Functional Reactive UI Programming)](http://www.slideshare.net/SangKyuPark1/re-frame-68818376)
-  - [양승헌: Graphics Programming in Clojure](pdf)
+  - [양승헌: Graphics Programming in Clojure](https://github.com/lispkorea/lispkorea.github.io-resource/blob/main/20161112/20161112-GraphicsProgrammingInClojure.pdf)
   - [이민선: 클로저 브릿지](http://www.slideshare.net/dalzony/2016-68870999)
 - 2015.10.24: 제 4 회 Korea Lisp Seminar 개최 - 삼성동 쿠팡 와우홀
   - [김영태: Clojure 소개 및 ClojureScript HTML5 게임 프로그래밍 with phaser.js](https://github.com/philoskim/cs-game)
