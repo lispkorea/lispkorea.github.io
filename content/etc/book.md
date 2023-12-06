@@ -16,9 +16,11 @@ title = "Book"
 - [Let Over Lambda](https://letoverlambda.com/)
 - [PAIP - Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp by Peter Norvig](https://github.com/norvig/paip-lisp)
 - [Build Your Own Lisp](https://www.buildyourownlisp.com/)
+- Common Lisp Recipes - A Problem-Solution Approach
+- The Common Lisp Condition System - Beyond Exception Handling with Control Flow Mechanisms
+- Programming Algorithms in Lisp - Writing Efficient Programs with Examples in ANSI Common Lisp
 
-
-## Scheme
+## Racket
 
 [books](https://erkin.party/scheme/bibliography/)
 
