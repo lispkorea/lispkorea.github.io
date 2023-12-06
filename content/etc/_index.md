@@ -9,3 +9,4 @@ title = "lispkorea.github.io"
 - [video](video)
 - [advent-calendar-jp](advent-calendar-jp)
 - [greenlabs](greenlabs)
+- [comic](comic)
