@@ -8,12 +8,12 @@ title = "Clojure Company"
 
 ## 국내 회사들
 
-| 홈페이지                                 | 하는 일                                                                                          |
-| ---------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| [ProtoPie](https://www.protopie.io)      | 모바일 화면등 프로토타입을 쉽게/빨리 만들어 주는 서비스.                                         |
-| [GreenLabs](https://greenlabs.co.kr/)    | 계획-재배-유통-금융까지 농사의 생애주기 전 단계를 다루는 원스톱 서비스를 제공.                   |
-| [GoodLifeLab](https://goodlifelab.co.kr) | 멘탈 헬스 검사 서비스                                                                            |
-| [Sherpas](https://sherpas.page)          | SaaS(Software as a Service) 클라우드 기반의 소프트웨어 제공 모델들을 쉽게 관리할 수 있는 서비스. |
+| 홈페이지                                 | 자료                       | 하는일                                                                                           |
+| ---------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------ |
+| [ProtoPie](https://www.protopie.io)      |                            | 모바일 화면등 프로토타입을 쉽게/빨리 만들어 주는 서비스.                                         |
+| [GreenLabs](https://greenlabs.co.kr/)    | [link](/company/greenlabs) | 계획-재배-유통-금융까지 농사의 생애주기 전 단계를 다루는 원스톱 서비스를 제공.                   |
+| [GoodLifeLab](https://goodlifelab.co.kr) |                            | 멘탈 헬스 검사 서비스                                                                            |
+| [Sherpas](https://sherpas.page)          |                            | SaaS(Software as a Service) 클라우드 기반의 소프트웨어 제공 모델들을 쉽게 관리할 수 있는 서비스. |
 
 ## 일본 회사들 
 

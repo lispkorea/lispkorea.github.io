@@ -8,5 +8,6 @@ title = "lispkorea.github.io"
 - [book](book)
 - [video](video)
 - [advent-calendar-jp](advent-calendar-jp)
-- [greenlabs](greenlabs)
 - [comic](comic)
+
+- https://www.lispworks.com/documentation/common-lisp.html
