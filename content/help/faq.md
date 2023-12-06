@@ -7,15 +7,15 @@ template = "page-with-toc.t.html"
 ### [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language))? Common lisp? Clojure?
 
 - Lisp는 [존 매카시](https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist))가 개발한 프로그래밍 언어이며, 심볼과 괄호를 이용한 전위표기법을 사용하는 특징을 갖고 있습니다.
-- 초기 Lisp를 기준으로 여러가지 파생 언어들이 나왔으며, Common Lisp, Clojure, Scheme도 그 파생 언어 중 하나입니다.
+- 초기 Lisp를 기준으로 여러가지 파생 언어들이 나왔으며, Common Lisp, Clojure, Racket도 그 파생 언어 중 하나입니다.
 
 
-### Common Lisp, Scheme, Clojure... 뭘 배워야 할 지 모르겠어요.
+### Common Lisp, Racket, Clojure... 뭘 배워야 할 지 모르겠어요.
 
 |             |                                                                                                                                                                              |
 | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Scheme      | 명저 [SICP](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html)와 함께 순수 프로그래밍 언어를 배우고 싶으신 분께 추천드립니다. |
 | Common Lisp | C와 근접한 실행속도를 원하시는 분들께 추천합니다.                                                                                                                            |
+| Racket      | 명저 [SICP](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html)와 함께 순수 프로그래밍 언어를 배우고 싶으신 분께 추천드립니다. |
 | Clojure     | 좀 더 현대적인 api디자인, Java/Scala와 같이 JVM위에 돌아가는 언어를 배웠던 분들에게 추천드립니다.                                                                            |
 
 ### [Lisp-1, Lisp-2 ?](https://en.wikipedia.org/wiki/Common_Lisp#The_function_namespace)
