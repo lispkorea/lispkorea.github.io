@@ -4,6 +4,8 @@ title = "Lisp을 좋아하는 사람들의 그룹"
 
 `Lisp을 좋아하는 사람들의 그룹`(한국 리스퍼)은 2009년 4월 8일에 설립(설립자 장선진)되었으며, 특정 주제나 도서를 정해 스터디하고, 매년 정기 세미나를 개최합니다.
 
+- [장선진: Lisp을 좋아하는 사람들의 그룹의 미래와 저의 생각](https://jangsunjin.tistory.com/474)
+
 # 스터디 연혁
 - 2017.12 ~ ????.??: [linear algebra](https://clojure-korea.slack.com/)
 - 2016.02 ~ 2016.04: [Clojure Web Programming - Web Development with Clojure](https://github.com/lisp-korea/web-development-with-clojure)
@@ -64,4 +66,4 @@ title = "Lisp을 좋아하는 사람들의 그룹"
   - 양승헌: Emacs Lisp
   - 문성원: Clojure On JavaEE
 - 2010.05.01: 제 1 회 Korea Lisp Seminar 개최 - 강남구 역삼동 삼성 SDS 멀티캠퍼스
-  - [후기](https://jinson.tistory.com/entry/한국-리스퍼-제-1-회-Korea-Lisp-세미나-다녀왔습니다)
+  - 후기 [1](https://jinson.tistory.com/entry/한국-리스퍼-제-1-회-Korea-Lisp-세미나-다녀왔습니다), [2](https://jangsunjin.tistory.com/445)
