@@ -6,13 +6,13 @@ title = "Racket"
 
 [Racket](https://racket-lang.org/)
 
+- Racket을 이용하여 [sicp](sicp)를 배워보시는건 어떤가요?
+
+
 ## cheatsheet
 
 - [racket-cheat](https://docs.racket-lang.org/racket-cheat/index.html)
 
-## [setup windows](./setup_windows)
+## Racket 설치
 
-## [SICP](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html)
-
-- TODO(pyoung): settup sicp on racket
-    - https://docs.racket-lang.org/sicp-manual/
+- [windows](./setup_windows)

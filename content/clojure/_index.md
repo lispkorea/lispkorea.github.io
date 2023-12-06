@@ -17,6 +17,18 @@ title = "Clojure"
 
 [clojure](https://jafingerhut.github.io/cheatsheet/clojuredocs/cheatsheet-tiptip-no-cdocs-summary.html) / [clojurescript](https://cljs.info/cheatsheet/)
 
+## Clojure 설치
+
+- [windows](./setup_windows)
+
+## 통합 개발 환경 설치
+
+IntelliJ에 기반한 `Cursive` 사용을 권장합니다.
+
+- [Cursive](https://github.com/clojure-kr/clojure-complete/blob/master/Development-Environments/intellij.adoc)
+
+----
+
 ## 기본 라이브러리
 
 - [코드포맷팅](https://github.com/weavejester/cljfmt)
@@ -27,10 +39,3 @@ title = "Clojure"
 - ~~문제를 풀어 실력을 향상시켜보세요 - [4Clojure](http://www.4clojure.com/)~~
 - ~~wiki: <http://clojure.or.kr/>~~
 - ~~blog: <http://clojure.kr/>~~
-
-
------------------------------
-
-## WIP
-### [setup windows](./setup_windows)
-### [setup intellij](https://github.com/clojure-kr/clojure-complete/blob/master/Development-Environments/intellij.adoc)
