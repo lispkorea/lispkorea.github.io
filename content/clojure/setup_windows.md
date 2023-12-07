@@ -17,15 +17,13 @@ title = "Setup Windows"
 * Win + R : cmd
 
 ``` cmd
-> scoop add bucket extra && scoop install boot-clj
-> exit
-```
-
-``` cmd
-> boot
-> boot -d boot/new new -t app -n myapp
-> cd myapp
-myapp> boot run
+> scoop install git
+> scoop bucket  add java
+> scoop bucket  add extras
+> scoop bucket  add scoop-clojure https://github.com/littleli/scoop-clojure
+> scoop install temurin-lts-jdk
+> scoop install clj-deps
+> scoop update  clj-deps
 ```
 
 # [Back](./)
