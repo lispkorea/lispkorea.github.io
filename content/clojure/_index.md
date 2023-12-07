@@ -26,6 +26,7 @@ title = "Clojure"
 IntelliJ에 기반한 `Cursive` 사용을 권장합니다.
 
 - [Cursive](https://github.com/clojure-kr/clojure-complete/blob/master/Development-Environments/intellij.adoc)
+- [Calva](setup_calva)
 
 ----
 
