@@ -1,5 +1,6 @@
 +++
 title = "Book"
+template = "page-with-toc.t.html"
 +++
 
 ## Common Lisp

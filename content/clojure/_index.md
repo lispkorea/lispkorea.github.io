@@ -12,21 +12,29 @@ title = "Clojure"
 - 아직도 고민되신다고요?
   - 한번 [박상규: 클로져 소개 강의 (한국정보통신산업노동조합)](https://www.slideshare.net/SangKyuPark1/ss-18350615)를 확인해 보시면 어떨까요?
 - [간단하게 살펴보기](https://learnxinyminutes.com/docs/ko-kr/clojure-kr/)
+- [책](/etc/book/#clojure)
 
 ## cheatsheet
 
 [clojure](https://jafingerhut.github.io/cheatsheet/clojuredocs/cheatsheet-tiptip-no-cdocs-summary.html) / [clojurescript](https://cljs.info/cheatsheet/)
 
-## Clojure 설치
+## 설치
 
+### Clojure 설치
 - [windows](./setup_windows)
 
-## 통합 개발 환경 설치
+### 통합 개발 환경 설치
 
 IntelliJ에 기반한 `Cursive` 사용을 권장합니다.
 
 - [Cursive](https://github.com/clojure-kr/clojure-complete/blob/master/Development-Environments/intellij.adoc)
 - [Calva](setup_calva)
+
+## 코딩사이트
+
+- [exercism: clojure](https://exercism.org/tracks/clojure)
+- [4ever-clojure - 4clojure](https://4clojure.oxal.org/)
+
 
 ----
 
