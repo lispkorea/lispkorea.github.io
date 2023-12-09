@@ -35,6 +35,10 @@ IntelliJ에 기반한 `Cursive` 사용을 권장합니다.
 - [exercism: clojure](https://exercism.org/tracks/clojure)
 - [4ever-clojure - 4clojure](https://4clojure.oxal.org/)
 
+## 참고 - 코딩스타일
+
+- <https://github.com/bbatsov/clojure-style-guide>
+
 
 ----
 
