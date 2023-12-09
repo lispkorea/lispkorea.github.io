@@ -9,5 +9,3 @@ title = "lispkorea.github.io"
 - [video](video)
 - [advent-calendar-jp](advent-calendar-jp)
 - [comic](comic)
-
-- https://www.lispworks.com/documentation/common-lisp.html

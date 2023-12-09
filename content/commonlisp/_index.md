@@ -8,7 +8,8 @@ Common Lisp (CL)는 1958년에 존 매카시가 개발한 Lisp의 최초의 표�
  CL은 Lisp의 가장 널리 사용되는 방언입니다.
  CL은 ANSI에 의해 표준화되었으며, ANSI Common Lisp라고도 합니다.
 
-[책](/etc/book/#common-lisp)
+- [책](/etc/book/#common-lisp)
+- [HyperSpec](https://www.lispworks.com/documentation/common-lisp.html)
 
 ## 설치
 ### Common Lisp 설치
