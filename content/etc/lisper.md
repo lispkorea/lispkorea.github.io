@@ -11,7 +11,7 @@ title = "lisper"
 - 김영태 [philoskim](https://github.com/philoskim)
 - 김은민 [eunmin](https://github.com/eunmin)
 - 김은평 [netpyoung](https://github.com/netpyoung)
-- 김태균 [ktg](https://bitbucket.org/ktg/workspace/repositories/)
+- 김태균 [kimtg](https://github.com/kimtg)
 - 박상규 [guruma](https://github.com/guruma)
 - 박성민 [byulparan](https://github.com/byulparan)
 - 박영식 [lispro06](https://github.com/lispro06)
