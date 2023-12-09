@@ -25,3 +25,9 @@ IntelliJ에 기반한 `SLT` 사용을 권장합니다.
 
 - [SLT](./setup_slt)
 - [emacs](./setup_emacs)
+
+
+## 참고 - 코딩스타일
+
+- <https://google.github.io/styleguide/lispguide.xml>
+- <https://lisp-lang.org/style-guide/>
