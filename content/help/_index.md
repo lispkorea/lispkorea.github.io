@@ -11,8 +11,9 @@ title = "lispkorea.github.io"
 ## 도움받기 / 참여하기
 
 - 그룹
-  - <i class="fa-brands fa-google"></i> [K-Lisper 구글그룹 바로가기](https://groups.google.com/forum/#!forum/lisp-korea)
-  - [네이버카페: LISP / Machine Learning 사용자모임](https://cafe.naver.com/lisper)도 있어요.
+  - [<i class="fa-brands fa-google"></i> 구글그룹: K-Lisper](https://groups.google.com/forum/#!forum/lisp-korea)
+  - [<i class="fa-brands fa-google"></i> 구글그룹: clojure-kr](https://groups.google.com/g/clojure-kr)
+  - [<i class="fa-sharp fa-solid fa-n"></i> 네이버카페: LISP / Machine Learning 사용자모임](https://cafe.naver.com/lisper)도 있어요.
   - [<i class="fab fa-facebook"></i> Facebook](https://www.facebook.com/groups/defnclojure/) 그룹도 있어요.
 - 채팅
   - [<i class="fab fa-slack"></i> clojure-korea](https://clojure-korea.slack.com/) 참여하셔서 같이 스터디 해요.
