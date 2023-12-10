@@ -21,9 +21,10 @@ template = "page-with-toc.t.html"
 - The Common Lisp Condition System - Beyond Exception Handling with Control Flow Mechanisms
 - Programming Algorithms in Lisp - Writing Efficient Programs with Examples in ANSI Common Lisp
 
+
 ## Racket
 
-[books](https://erkin.party/scheme/bibliography/)
+- books: [1](https://www.racket-lang.org/#books), [2](https://erkin.party/scheme/bibliography/)
 
 - [Structures and Interpretation of Computer Program](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html)
   - 한글판: 컴퓨터 프로그램의 구조와 해석
@@ -32,6 +33,10 @@ template = "page-with-toc.t.html"
 - [How to Design Programs](https://htdp.org/from-first-to-second-edition.html)
   - 한글판: 프로그램 디자인, 어떻게 할 것인가
 - Realm of Racket
+- [Beau­tiful Racket](https://beautifulracket.com/)
+- The Little Schemer
+  - The Seasoned Schemer
+  - The Reasoned Schemer
 
 ## Clojure
 
@@ -47,3 +52,4 @@ template = "page-with-toc.t.html"
   - 한글판: 클로저 시작하기
 - Clojure for the Brave and True
   - 한글판: 누구나 쉽게 배우는 클로저
+- [Clojure - A libre and gratis Clojure book in the making.](https://clojure-book.gitlab.io/)

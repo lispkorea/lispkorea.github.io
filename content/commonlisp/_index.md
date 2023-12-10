@@ -4,7 +4,7 @@ page_template = "category.page.t.html"
 title = "Common Lisp"
 +++
 
-Common Lisp (CL)는 1958년에 존 매카시가 개발한 Lisp의 최초의 표준화된 버전입니다.
+`Common Lisp`  (줄여서 CL)는 1958년에 존 매카시가 개발한 Lisp의 최초의 표준화된 버전입니다.
  CL은 Lisp의 가장 널리 사용되는 방언입니다.
  CL은 ANSI에 의해 표준화되었으며, ANSI Common Lisp라고도 합니다.
 
@@ -36,6 +36,10 @@ IntelliJ에 기반한 `SLT` 사용을 권장합니다.
 - [hyotang666/common-lisp-pitfalls](https://github.com/hyotang666/common-lisp-pitfalls)
 - [ashok-khanna/lisp-notes](https://github.com/ashok-khanna/lisp-notes)
 - <https://jtra.cz/stuff/lisp/sclr/index.html>
+
+## 회사들
+
+- <https://common-lisp.net/lisp-companies>
 
 ## 참고 - 코딩스타일
 
