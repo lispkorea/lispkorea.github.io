@@ -24,7 +24,9 @@ title = "Clojure"
 ## 설치
 
 ### Clojure 설치
+
 - [windows](./setup_windows)
+- [osx](./setup_osx)
 
 ### 통합 개발 환경 설치
 
