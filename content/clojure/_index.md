@@ -11,6 +11,7 @@ title = "Clojure"
 - 국내에는 [어떤 회사](clojure-company)들이 있을까요?
 - 아직도 고민되신다고요? 한번 [박상규: 클로져 소개 강의 (한국정보통신산업노동조합)](https://www.slideshare.net/SangKyuPark1/ss-18350615)를 확인해 보시면 어떨까요?
 - [김영태: Clojure Memo](https://philoskim.github.io/doc/index.html)도 한번 들여다 보세요!
+- [김은민: 초보자를 위한 클로저](https://eunmin.gitbooks.io/clojure-for-beginners)
 
 - [책](/etc/book/#clojure)
 
