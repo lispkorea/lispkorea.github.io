@@ -9,12 +9,14 @@ title = "Common Lisp"
  CL은 ANSI에 의해 표준화되었으며, ANSI Common Lisp라고도 합니다.
 
 - [책](/etc/book/#common-lisp)
+- [라이브러리](library)
+- [유틸리티](utility)
 - [HyperSpec](https://www.lispworks.com/documentation/common-lisp.html)
 
 ## 설치
 ### Common Lisp 설치
 
-Common Lisp에는 여러 버전이 있습니다. 그 중 여기선 `SBCL`을 설치하도록 하겠습니다.
+Common Lisp에는 [여러 버전](dialect)이 있습니다. 그 중 여기선 `SBCL`을 설치하도록 하겠습니다.
 
 - [windows](./setup_windows)
 - [ubuntu](./setup_ubuntu)
@@ -30,6 +32,7 @@ IntelliJ에 기반한 `SLT` 사용을 권장합니다.
 ## 코딩사이트
 
 - [exercism: common-lisp](https://exercism.io/tracks/common-lisp)
+- [kattis: common-lisp](https://open.kattis.com/languages/lisp)
 
 ## Cheatsheet
 
