@@ -22,7 +22,12 @@ nodgui/ltk라이브러리는 wish(Simple `wi`ndowing `sh`ell)를 이용하여 tc
 
 
 ``` zsh
+# ubuntu
 $ sudo apt-get install -y tk tcl
+
+# macOs
+$ brew install tcl-tk
+
 $ sbcl
 > (ql:quickload :ltk)
 > (in-package :ltk)
@@ -31,12 +36,21 @@ $ sbcl
 
 ## nodgui
 
+`No` `D`rama `GUI`
+
 - [소스](https://codeberg.org/cage/nodgui)
 - [nodgui에서 지원하는 테마 목록](https://codeberg.org/cage/nodgui/src/branch/master/themes)
   - [python ttkthemes에서 지원하는 테마 목록](https://ttkthemes.readthedocs.io/en/latest/themes.html)
-
-- https://lisp-journey.gitlab.io/blog/nodgui-now-has-a-nice-looking-theme-by-default/
+- ref
+  - <https://www.autistici.org/interzona/nodgui.html>
+  - <https://www.autistici.org/interzona/nodgui-tips.html>
+  - <https://lisp-journey.gitlab.io/blog/nodgui-now-has-a-nice-looking-theme-by-default/>
 
 ``` lisp
+(ql:quickload "nodgui")
+(nodgui.demo:demo)
+
+;;; 테마 변경
 (nodgui.demo:demo :theme "yaru")
 ```
+

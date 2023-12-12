@@ -9,6 +9,8 @@ title = "Library"
   - quicklisp
   - ultralisp
 - [sketch](sketch)
+- [sdl](sdl)
+  - cl-sdl2
 - [tcl/tk](tcltk)
   - ltk
   - nodgui
