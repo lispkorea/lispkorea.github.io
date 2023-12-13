@@ -39,6 +39,11 @@ IntelliJ에 기반한 `Cursive` 사용을 권장합니다.
 
 - [exercism: clojure](https://exercism.org/tracks/clojure)
 - [4ever-clojure - 4clojure](https://4clojure.oxal.org/)
+  - [[ANN] Discontinuing 4clojure.com](https://groups.google.com/g/clojure/c/ZWmDEzvn-Js/m/ad4gKdLEAgAJ)
+  - <https://github.com/PEZ/rich4clojure>
+  - <https://github.com/oxalorg/4clojure-solutions-archive>
+  - ref: <https://practical.li/clojure/coding-challenges/4clojure/>
+
 
 ## 참고 - 코딩스타일
 
