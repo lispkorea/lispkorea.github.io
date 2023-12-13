@@ -43,3 +43,12 @@ Quicklisp 리포지토리는 매월 한 번 업데이트됩니다.
 ``` lisp
 (ql-dist:install-dist "http://dist.ultralisp.org/ultralisp.txt" :prompt nil)
 ```
+
+## Qlot
+
+- <https://github.com/fukamachi/qlot>
+- project-local library installer using Quicklisp facility
+
+``` lisp
+(ql:quickload :qlot)
+```
