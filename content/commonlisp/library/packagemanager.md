@@ -39,6 +39,7 @@ Quicklisp 리포지토리는 매월 한 번 업데이트됩니다.
 
 - [홈페이지](https://ultralisp.org/dists/ultralisp)
 - [소스](https://github.com/ultralisp/ultralisp)
+- [youtube: Ultralisp - fast quicklisp distribution](https://www.youtube.com/watch?v=UIwbdVnb4_8)
 
 ``` lisp
 (ql-dist:install-dist "http://dist.ultralisp.org/ultralisp.txt" :prompt nil)
@@ -52,3 +53,10 @@ Quicklisp 리포지토리는 매월 한 번 업데이트됩니다.
 ``` lisp
 (ql:quickload :qlot)
 ```
+
+## ocicl
+
+alternative quicklisp
+
+- [소스](https://github.com/ocicl/ocicl)
+
