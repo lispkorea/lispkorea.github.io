@@ -16,7 +16,7 @@ title = "Clojure"
 - [**김은민: 초보자를 위한 클로저**](https://eunmin.gitbooks.io/clojure-for-beginners) 도 있구요.
 - 캔디크러쉬 좋아하시나요? 캔디크러쉬를 만든 회사인 [King](https://king.com)에서도 Clojure를 사용하고 있어요.
   -  [Clojure tutorial by a Defold developer](https://www.youtube.com/playlist?list=PLXsXu5srjNlxI7b2smnHxDeMMwR4mVZ2m)
-- [**책**](/etc/book/#clojure) 도 한번 둘러 보세요!
+- 어떠한 [**책**](/etc/book/#clojure)이 있나 한번 둘러 보세요!
 
 ## cheatsheet
 
