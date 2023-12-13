@@ -9,6 +9,7 @@ SDL(`S`imple `D`irectMedia `L`ayer)
 ## cl-sdl2
 
 - [소스](https://github.com/lispgames/cl-sdl2)
+- [튜토리얼](https://github.com/TatriX/cl-sdl2-tutorial)
 - <https://github.com/rpav/cl-autowrap>
   - <https://github.com/rpav/c2ffi>
     - Clang을 이용하여 JSON형식의 FFI wrapper를 생성해주는 툴입니다.
