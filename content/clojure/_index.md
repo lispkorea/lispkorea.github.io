@@ -4,6 +4,8 @@ page_template = "category.page.t.html"
 title = "Clojure"
 +++
 
+[**리치히키(Rich Hickey)**](richhickey)가 만든 Lisp계열의 언어입니다.
+
 [Apple](https://apple.com), [Netflix](https://www.netflix.com), [Cisco](https://www.cisco.com), [KaKao](https://www.kakaocorp.com/) 등에서 쓰고 있는, `Clojure`를 배워보는 것은 어떨까요?
 
 - [**간단하게 살펴보기**](https://learnxinyminutes.com/docs/ko-kr/clojure-kr/)
@@ -48,9 +50,14 @@ IntelliJ에 기반한 `Cursive` 사용을 권장합니다.
   - ref: <https://practical.li/clojure/coding-challenges/4clojure/>
 
 
-## 참고 - 코딩스타일
+## 코딩스타일
 
 - <https://github.com/bbatsov/clojure-style-guide>
+
+## 참고
+
+- [.gitignore](https://github.com/github/gitignore/blob/main/Clojure.gitignore)
+- [실용 클로져(영문)](https://practical.li/clojure/)
 
 
 ----
