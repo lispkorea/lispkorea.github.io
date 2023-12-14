@@ -58,7 +58,8 @@ IntelliJ에 기반한 `Cursive` 사용을 권장합니다.
 
 - [.gitignore](https://github.com/github/gitignore/blob/main/Clojure.gitignore)
 - [실용 클로져(영문)](https://practical.li/clojure/)
-
+- [Clojure By Example](https://kimh.github.io/clojure-by-example/)
+- [Clojure Distilled](https://yogthos.net/ClojureDistilled.html)
 
 ----
 
@@ -66,6 +67,7 @@ IntelliJ에 기반한 `Cursive` 사용을 권장합니다.
 
 - [코드포맷팅](https://github.com/weavejester/cljfmt)
 - [로깅](https://github.com/clojure/tools.logging)
+
 
 ## deprecated
 
