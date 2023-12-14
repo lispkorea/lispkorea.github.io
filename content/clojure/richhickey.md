@@ -2,10 +2,12 @@
 title = "Rich Hickey"
 +++
 
-Simple-Made-Easy
 
-- [infoq: Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/)
-- [youtube: Rails Conf 2012 Keynote: Simplicity Matters by Rich Hickey](https://www.youtube.com/watch?v=rI8tNMsozo0)
+## Simple Made Easy
+
+<iframe width="800" height="600" src="https://www.youtube.com/embed/SxdOUGdseq4?si=icJ7pIWLsPltmvKh?hl=ko&persist_hl=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+- [번역에 기여해주신 분들](https://www.linkedin.com/feed/update/urn:li:activity:6993390345950486528)
  
 ## Ref
 
