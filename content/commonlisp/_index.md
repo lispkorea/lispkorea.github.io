@@ -45,7 +45,11 @@ IntelliJ에 기반한 `SLT` 사용을 권장합니다.
 
 - <https://common-lisp.net/lisp-companies>
 
-## 참고 - 코딩스타일
+## 코딩스타일
 
 - <https://google.github.io/styleguide/lispguide.xml>
 - <https://lisp-lang.org/style-guide/>
+
+## 참고
+
+- [.gitignore](https://github.com/github/gitignore/blob/main/CommonLisp.gitignore)

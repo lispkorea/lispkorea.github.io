@@ -29,6 +29,10 @@ title = "Racket"
 
 - [exercism: racket](https://exercism.org/tracks/racket)
 
+## 참고
+
+- [.gitignore](https://github.com/github/gitignore/blob/main/Racket.gitignore)
+
 ## WIP
 
 - ~~[setup_windows](./setup_windows)~~
