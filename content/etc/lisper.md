@@ -15,6 +15,7 @@ title = "lisper"
 - 박상규 [guruma](https://github.com/guruma)
 - 박성민 [byulparan](https://github.com/byulparan)
 - 박영식 [lispro06](https://github.com/lispro06)
+- 손수일 [likerivers12](https://github.com/likerivers12)
 - 양승헌
 - 오종빈 [ohyecloudy](https://github.com/ohyecloudy)
 - 이민선 [dalzony](https://github.com/dalzony)

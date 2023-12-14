@@ -62,7 +62,7 @@ title = "Lisp을 좋아하는 사람들의 그룹"
   - 박성민: MediaPrograming by Lisp
   - 박영식: Google A.i Challenge
   - 선미건: Lambda Calculaus
-  - 손수일: Macros
+  - [손수일: Macros](https://github.com/lispkorea/lispkorea.github.io-resource/tree/main/20110709/likerivers12/lisp_macro_seminar/korea_lisp_seminar_2)
   - 양승헌: Emacs Lisp
   - 문성원: Clojure On JavaEE
 - 2010.05.01: 제 1 회 Korea Lisp Seminar 개최 - 강남구 역삼동 삼성 SDS 멀티캠퍼스
