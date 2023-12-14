@@ -54,7 +54,7 @@ IntelliJ에 기반한 `Cursive` 사용을 권장합니다.
 
 - <https://github.com/bbatsov/clojure-style-guide>
 
-## 참고
+## 참고
 
 - [.gitignore](https://github.com/github/gitignore/blob/main/Clojure.gitignore)
 - [실용 클로져(영문)](https://practical.li/clojure/)
