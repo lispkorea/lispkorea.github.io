@@ -35,7 +35,6 @@ title = "Lisp을 좋아하는 사람들의 그룹"
   - [박상규: Replikativ: CRDT와 OTP를 중심으로 Building services without network API](https://www.slideshare.net/SangKyuPark1/replikativ/1)
   - [김대원: Clojure/conj 2017](https://www.slideshare.net/DarrenKim9/clojureconj-2017-81991879)
   - 후기 [1](https://medium.com/happyprogrammer-in-jeju/클로저-소개-제6회-리스프-세미나-발표-dc6700e0821d)
-- 2017.03.17: Clojure Bridge Seoul 주최 - 숙명여자대학교
 - 2016.11.12: [제 5 회 Korea Lisp Seminar 개최](https://d2.naver.com/news/5134096) - D2 STARTUP FACTORY
   - [김만명: 클로저 개발팀을 위한 지속적인 통합](https://github.com/lispkorea/lispkorea.github.io-resource/blob/main/20161112/20161112-1st-session-clojure-ci.pdf)
   - [김은민: 동신성 프로그래밍하기(자바보다)좋은 Clojure](http://www.slideshare.net/eunminn/clojure-68804824)
