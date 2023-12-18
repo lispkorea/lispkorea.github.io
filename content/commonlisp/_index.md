@@ -19,9 +19,7 @@ title = "Common Lisp"
 
 Common Lisp에는 [여러 버전](dialect)이 있습니다. 그 중 여기선 `SBCL`을 설치하도록 하겠습니다.
 
-- [windows](./setup_windows)
-- [ubuntu](./setup_ubuntu)
-- [macOs](./setup_osx)
+- [SBCL 설치](./setup_sbcl)
 
 ### 통합 개발 환경 설치
 
