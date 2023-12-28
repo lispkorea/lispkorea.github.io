@@ -16,6 +16,6 @@ title = "lispkorea.github.io"
 ```
 
 
-![how-to-save-the-princess-on-lisp.png](/comic/how-to-save-the-princess-on-lisp.png)
+![how-to-save-the-princess-on-lisp.webp](/comic/how-to-save-the-princess-on-lisp.webp)
 - [삽화 출처](https://toggl.com/blog/save-princess-8-programming-languages)
 - 더 많은 삽화는 [/etc/comic](/etc/comic)을 참고하세요.
