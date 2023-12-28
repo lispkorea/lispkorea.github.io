@@ -39,6 +39,12 @@ flowchart TB
 {% end %}
 ```
 
+``` html
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+</script>
+```
+
 ## zola를 선택한 이유
 
 - 쉽고 빠르게 편집하기 위해.
