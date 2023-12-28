@@ -45,6 +45,8 @@ IntelliJ에 기반한 `Cursive` 사용을 권장합니다.
 - [Cursive](https://github.com/clojure-kr/clojure-complete/blob/master/Development-Environments/intellij.adoc)
 - [Calva](setup_calva)
 
+### <span class="icon has-text-primary"><img src="/res/icon/EmacsIcon.svg" /></span>[Emacs 설정](https://lispkorea.github.io/emacs-for-lisper/clojure/cider)
+
 ## 코딩사이트
 
 - [exercism: clojure](https://exercism.org/tracks/clojure)

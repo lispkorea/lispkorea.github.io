@@ -25,6 +25,8 @@ title = "Racket"
 - [DrRacket](https://download.racket-lang.org/)
 - [VSCode](setup_vscode)
 
+### <span class="icon has-text-primary"><img src="/res/icon/EmacsIcon.svg" /></span>[Emacs 설정](https://lispkorea.github.io/emacs-for-lisper/racket/racket-mode)
+
 ## 코딩사이트
 
 - [exercism: racket](https://exercism.org/tracks/racket)
