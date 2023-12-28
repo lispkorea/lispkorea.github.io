@@ -26,7 +26,6 @@ Common Lisp에는 [여러 버전](dialect)이 있습니다. 그 중 여기선 `S
 IntelliJ에 기반한 `SLT` 사용을 권장합니다.
 
 - [SLT](./setup_slt)
-- [emacs](./setup_emacs)
 
 ## 코딩사이트
 
