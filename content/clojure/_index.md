@@ -12,6 +12,7 @@ title = "Clojure"
 - [**간단하게 살펴보기**](https://learnxinyminutes.com/docs/ko-kr/clojure-kr/)
   - [**매크로도 맛만**](https://github.com/adambard/learnxinyminutes-docs/pull/4806/files?short_path=427657d#diff-427657d38a43f98375e1b3674376f60a24b00a3242d991aba632bec2e0bdd9ac)
 - 온라인에서 코드를 실행시켜보세요 - [repl.it](https://repl.it/languages/clojure)
+- [버전](@/clojure/version.md)
 
 ## 자료
 
