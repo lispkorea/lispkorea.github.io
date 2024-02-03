@@ -23,6 +23,13 @@ template = "page-with-toc.t.html"
 - The Common Lisp Condition System - Beyond Exception Handling with Control Flow Mechanisms
 - Programming Algorithms in Lisp - Writing Efficient Programs with Examples in ANSI Common Lisp
 
+### 추천 순서
+
+- Common Lisp: A Gentle Introduction to Symbolic Computation
+- ANSI Common Lisp
+- Practical Common Lisp
+- On Lisp
+- Common Lisp Recipes - A Problem-Solution Approach
 
 ## Racket
 
@@ -40,6 +47,11 @@ template = "page-with-toc.t.html"
   - The Seasoned Schemer
   - The Reasoned Schemer
 
+### 추천 순서
+
+- How to Design Programs
+- The Little Schemer
+
 ## Clojure
 
 [books](https://clojure.org/community/books)
@@ -55,3 +67,10 @@ template = "page-with-toc.t.html"
 - Clojure for the Brave and True
   - 한글판: 누구나 쉽게 배우는 클로저
 - [Clojure - A libre and gratis Clojure book in the making.](https://clojure-book.gitlab.io/)
+- [A History of Clojure](https://download.clojure.org/papers/clojure-hopl-iv-final.pdf)
+  - [HOPL IV conference talk and Q&A](https://www.pldi21.org/prerecorded_hopl.11.html)
+
+### 추천 순서
+
+- Clojure Programming - Practical Lisp for the Java World
+- A History of Clojure
