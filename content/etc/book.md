@@ -8,6 +8,8 @@ template = "page-with-toc.t.html"
 [books](https://lisp-lang.org/books/)
 
 - [Common Lisp: A Gentle Introduction to Symbolic Computation](https://www.cs.cmu.edu/~dst/LispBook/)
+- [Successful Lisp](https://dept-info.labri.fr/~strandh/Teaching/MTP/Common/David-Lamkins/contents.html)
+  - [한글](https://lispkorea.github.io/successful-lisp-kr/)
 - [Land of Lisp](http://landoflisp.com/)
   - 한글판: 만들면서 배우는 리스프 프로그래밍
 - [ANSI Common Lisp](http://www.paulgraham.com/acl.html)
