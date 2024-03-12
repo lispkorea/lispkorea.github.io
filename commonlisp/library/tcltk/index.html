@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>lispkorea</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="naver-site-verification" content="8264ac442137ef0c52727372d422237f2c9e6e29" />
+
+  <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="&#x2F;feed" />
+  <link rel="stylesheet" href="/main.css" />
+  <script defer src="/main.js"></script>
+</head>
+
+
+<body class="layout-documentation page-layout">
+  <nav class="navbar is-transparent is-centered has-shadow is-spaced">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="&#x2F;">
+          <b>Lisp Korea ☯ 🇰🇷</b>
+        </a>
+
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <!-- ref: https://fontawesome.com/icons?d=gallery -->
+
+          <a class="navbar-item" href="&#x2F;posts">
+            <span class="icon has-text-primary">
+              <i class="fas fa-book"></i>
+            </span>
+            <span>Posts</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;k-lisper">
+            <span class="icon is-success">
+              <i class="fas fa-pastafarianism"></i>
+            </span>
+            <span>K-Lisper</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;commonlisp">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/commonlisp.png" />
+            </span>
+            <span>Common Lisp</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;racket">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/racket.svg" />
+            </span>
+            <span>Racket</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;clojure">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/clojure.png" />
+            </span>
+            <span>Clojure</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;emacs">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/EmacsIcon.svg" />
+            </span>
+            <span>Emacs</span>
+          </a>
+
+          <a class="navbar-item" href="/etc">
+            <span class="icon has-text-primary">
+              <i class="fa-solid fa-music"></i>
+            </span>
+            <span>Etc</span>
+          </a>
+
+          <a class="navbar-item" href="/help">
+            <span class="icon has-text-primary">
+              <i class="fa-regular fa-comment"></i>
+            </span>
+            <span>Help</span>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a class="navbar-item" href="/feed.xml">
+            <i class="fas fa-rss-square"></i>
+          </a>
+          <a class="navbar-item " href="https://github.com/lispkorea/lispkorea.github.io/">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="content container is-fluid">
+      
+<h1 class="title">
+  tcl&#x2F;tk
+</h1>
+
+
+
+<div class="post">
+  <ul>
+<li><a href="https://www.tcl.tk/">홈페이지</a></li>
+<li>Tcl (<code>T</code>ool <code>C</code>ommand <code>L</code>anguage)은 스크립트 언어로, 크로스플랫폼 GUI기반 프로그램을 간편하게 만들기에 좋다.</li>
+<li>Tk(graphical user interface <code>t</code>ool<code>k</code>it)는 Tcl용으로 개발된 매우 간단한 코드로 GUI를 작성할 수 있는 툴킷</li>
+</ul>
+<p>nodgui/ltk라이브러리는 wish(Simple <code>wi</code>ndowing <code>sh</code>ell)를 이용하여 tcl/tk를 사용할 수 있게 해준다.</p>
+<ul>
+<li><a href="https://www.tcl.tk/man/tcl/UserCmd/wish.html">tcl/tk: wish</a></li>
+</ul>
+<h2 id="ltk">ltk</h2>
+<ul>
+<li>ltk
+<ul>
+<li><a href="https://github.com/herth/ltk">소스</a></li>
+<li><a href="http://www.peter-herth.de/ltk/">홈페이지</a></li>
+</ul>
+</li>
+<li><a href="https://tkdocs.com/tutorial/index.html">tkdocs: 튜토리얼</a>
+<ul>
+<li><a href="https://peterlane.codeberg.page/ltk-examples/">ltk: 예제 1</a></li>
+<li><a href="https://peterlane.codeberg.page/ltk-plotchart/">ltk: 예제 2</a></li>
+</ul>
+</li>
+</ul>
+<pre data-lang="zsh" style="background-color:#fefbec;color:#6e6b5e;" class="language-zsh "><code class="language-zsh" data-lang="zsh"><span style="color:#999580;"># ubuntu
+</span><span style="color:#d73737;">$</span><span> sudo apt-get install</span><span style="color:#d73737;"> -y</span><span> tk tcl
+</span><span>
+</span><span style="color:#999580;"># macOs
+</span><span style="color:#d73737;">$</span><span> brew install tcl-tk
+</span><span>
+</span><span style="color:#d73737;">$</span><span> sbcl
+</span><span>&gt; (</span><span style="color:#d73737;">ql:quickload</span><span> :ltk)
+</span><span>&gt; (</span><span style="color:#d73737;">in-package</span><span> :ltk)
+</span><span>&gt; (</span><span style="color:#d73737;">ltktest</span><span>)
+</span></code></pre>
+<h2 id="nodgui">nodgui</h2>
+<p><code>No</code> <code>D</code>rama <code>GUI</code></p>
+<ul>
+<li><a href="https://codeberg.org/cage/nodgui">소스</a></li>
+<li><a href="https://codeberg.org/cage/nodgui/src/branch/master/themes">nodgui에서 지원하는 테마 목록</a>
+<ul>
+<li><a href="https://ttkthemes.readthedocs.io/en/latest/themes.html">python ttkthemes에서 지원하는 테마 목록</a></li>
+</ul>
+</li>
+<li>ref
+<ul>
+<li><a href="https://www.autistici.org/interzona/nodgui.html">https://www.autistici.org/interzona/nodgui.html</a></li>
+<li><a href="https://www.autistici.org/interzona/nodgui-tips.html">https://www.autistici.org/interzona/nodgui-tips.html</a></li>
+<li><a href="https://lisp-journey.gitlab.io/blog/nodgui-now-has-a-nice-looking-theme-by-default/">https://lisp-journey.gitlab.io/blog/nodgui-now-has-a-nice-looking-theme-by-default/</a></li>
+</ul>
+</li>
+</ul>
+<pre data-lang="lisp" style="background-color:#fefbec;color:#6e6b5e;" class="language-lisp "><code class="language-lisp" data-lang="lisp"><span>(ql:quickload &quot;</span><span style="color:#60ac39;">nodgui</span><span>&quot;)
+</span><span>(nodgui.demo:demo)
+</span><span>
+</span><span style="color:#999580;">;;; 테마 변경
+</span><span>(nodgui.demo:demo :theme &quot;</span><span style="color:#60ac39;">yaru</span><span>&quot;)
+</span></code></pre>
+
+</div><!-- post -->
+
+<hr />
+<script src="https://utteranc.es/client.js"
+        repo="lispkorea/lispkorea.post.comment"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<hr />
+
+    </div><!-- /.content -->
+  </div>
+
+</body>
+
+</html>
