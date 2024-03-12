@@ -3,6 +3,7 @@ title = "Rich Hickey"
 +++
 
 - [Harfang's Perch: 리치 히키와의 인터뷰 (마이클 포거스)](https://harfangk.github.io/2017/12/08/rich-hickey-interview-from-codequarterly-ko.html)
+- [richhickey's gist](https://gist.github.com/richhickey)
 
 ## Simple Made Easy
 

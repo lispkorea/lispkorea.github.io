@@ -6,7 +6,8 @@ title = "Lisp을 좋아하는 사람들의 그룹"
 
 - [장선진: Lisp을 좋아하는 사람들의 그룹의 미래와 저의 생각](https://jangsunjin.tistory.com/474)
 
-# 스터디 연혁
+## 스터디 연혁
+
 - 2017.12 ~ ????.??: [linear algebra](https://clojure-korea.slack.com/)
 - 2016.02 ~ 2016.04: [Clojure Web Programming - Web Development with Clojure](https://github.com/lisp-korea/web-development-with-clojure)
 - 2015.08 ~ 2016.01: [Clojure Programming](https://github.com/lisp-korea/ClojureProgramming)
@@ -25,7 +26,8 @@ title = "Lisp을 좋아하는 사람들의 그룹"
 - 2009.11 ~ 2009.10: [Common Lisp : A Gentle Introduction to Symbolic Computation](https://www.cs.cmu.edu/~dst/LispBook/)
 
 
-# 공개 세미나 개최 연혁
+## 공개 세미나 개최 연혁
+
 - 2017.11.11: [제 6 회 Korea Lisp Seminar 개최](https://groups.google.com/forum/#!topic/lisp-korea/vewKN7RlpZk) - D2 STARTUP FACTORY
   - [김대현: Clojure 소개](https://medium.com/happyprogrammer-in-jeju/클로저-소개-제6회-리스프-세미나-발표-dc6700e0821d)
   - [김영태: 데이터베이스 패러다임의 전환 Datomic: 함수형 데이터베이스](https://github.com/philoskim/datomic-intro)
@@ -66,3 +68,19 @@ title = "Lisp을 좋아하는 사람들의 그룹"
   - 문성원: Clojure On JavaEE
 - 2010.05.01: 제 1 회 Korea Lisp Seminar 개최 - 강남구 역삼동 삼성 SDS 멀티캠퍼스
   - 후기 [1](https://jinson.tistory.com/entry/한국-리스퍼-제-1-회-Korea-Lisp-세미나-다녀왔습니다), [2](https://jangsunjin.tistory.com/445)
+
+## 후원 받았던
+
+- 기관
+  - 정보통신산업진흥원
+- 기업
+  - 소프트웨어인라이프
+  - 데브멘토
+  - Open Technet
+  - Naver
+  - Kakao
+- 출판사
+  - 인사이트
+  - 도서출판 지앤선
+  - 한빛미디어
+  - 비제이퍼블릭
