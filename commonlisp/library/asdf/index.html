@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>lispkorea</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="naver-site-verification" content="8264ac442137ef0c52727372d422237f2c9e6e29" />
+
+  <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="&#x2F;feed" />
+  <link rel="stylesheet" href="/main.css" />
+  <script defer src="/main.js"></script>
+</head>
+
+
+<body class="layout-documentation page-layout">
+  <nav class="navbar is-transparent is-centered has-shadow is-spaced">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="&#x2F;">
+          <b>Lisp Korea ☯ 🇰🇷</b>
+        </a>
+
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <!-- ref: https://fontawesome.com/icons?d=gallery -->
+
+          <a class="navbar-item" href="&#x2F;posts">
+            <span class="icon has-text-primary">
+              <i class="fas fa-book"></i>
+            </span>
+            <span>Posts</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;k-lisper">
+            <span class="icon is-success">
+              <i class="fas fa-pastafarianism"></i>
+            </span>
+            <span>K-Lisper</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;commonlisp">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/commonlisp.png" />
+            </span>
+            <span>Common Lisp</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;racket">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/racket.svg" />
+            </span>
+            <span>Racket</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;clojure">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/clojure.png" />
+            </span>
+            <span>Clojure</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;emacs">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/EmacsIcon.svg" />
+            </span>
+            <span>Emacs</span>
+          </a>
+
+          <a class="navbar-item" href="/etc">
+            <span class="icon has-text-primary">
+              <i class="fa-solid fa-music"></i>
+            </span>
+            <span>Etc</span>
+          </a>
+
+          <a class="navbar-item" href="/help">
+            <span class="icon has-text-primary">
+              <i class="fa-regular fa-comment"></i>
+            </span>
+            <span>Help</span>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a class="navbar-item" href="/feed.xml">
+            <i class="fas fa-rss-square"></i>
+          </a>
+          <a class="navbar-item " href="https://github.com/lispkorea/lispkorea.github.io/">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="content container is-fluid">
+      
+<h1 class="title">
+  asdf
+</h1>
+
+
+
+<div class="post">
+  <ul>
+<li><a href="https://asdf.common-lisp.dev/">asdf</a></li>
+</ul>
+<p>ASDF(<code>A</code>nother <code>S</code>ystem <code>D</code>efinition <code>F</code>acility)는 빌드 시스템 입니다 
+Common Lisp 소프트웨어 시스템이 구성 요소(하위 시스템 및 파일)로 구성되는 방식과 이러한 구성 요소를 올바른 순서로 작동하는 방법을 지정하는 도구입니다. 컴파일, 로드, 테스트 등이 가능합니다.</p>
+<table><thead><tr><th>버전</th><th></th></tr></thead><tbody>
+<tr><td>1</td><td>Daniel Barlow's ASDF (created on August 1st 2001)</td></tr>
+<tr><td>2</td><td>François-René Rideau's ASDF 2 (released May 31st 2010).</td></tr>
+<tr><td>3</td><td></td></tr>
+</tbody></table>
+<table><thead><tr><th>경로</th><th>설명</th></tr></thead><tbody>
+<tr><td>~/common-lisp/</td><td>Common Lisp 소프트웨어 설치 기본 위치(권장)</td></tr>
+<tr><td>~/.local/share/common-lisp/source/</td><td></td></tr>
+</tbody></table>
+<ul>
+<li>크게 다음 2파트로 나뉩니다.
+<ul>
+<li><code>asdf/defsystem</code>: 패키지정의</li>
+<li><code>uiop</code>: 유틸리티</li>
+</ul>
+</li>
+</ul>
+<h2 id="asdf-defsystem">asdf/defsystem</h2>
+<ul>
+<li><a href="https://asdf.common-lisp.dev/asdf.html">https://asdf.common-lisp.dev/asdf.html</a></li>
+<li><a href="https://qiita.com/MYAO/items/874aafcc531862c5f7c7">https://qiita.com/MYAO/items/874aafcc531862c5f7c7</a></li>
+<li><a href="https://github.com/fare/asdf/blob/master/doc/best_practices.md">https://github.com/fare/asdf/blob/master/doc/best_practices.md</a></li>
+</ul>
+<h2 id="uiop">uiop</h2>
+<p>UIOP(<code>U</code>tilities for <code>I</code>mplementation and <code>O</code>S-<code>P</code>ortability)</p>
+<ul>
+<li><a href="https://asdf.common-lisp.dev/uiop.html">https://asdf.common-lisp.dev/uiop.html</a></li>
+<li><a href="https://quickdocs.org/uiop">https://quickdocs.org/uiop</a></li>
+<li><a href="https://zenn.dev/hyotang666/articles/3f7abcec6f8270">https://zenn.dev/hyotang666/articles/3f7abcec6f8270</a></li>
+</ul>
+<pre data-lang="lisp" style="background-color:#fefbec;color:#6e6b5e;" class="language-lisp "><code class="language-lisp" data-lang="lisp"><span style="color:#999580;">;; example
+</span><span>
+</span><span>(uiop:getenv &quot;</span><span style="color:#60ac39;">USER</span><span>&quot;)
+</span><span>
+</span><span>(uiop:run-program &quot;</span><span style="color:#60ac39;">firefox</span><span>&quot;) </span><span style="color:#999580;">; 동기
+</span><span>(uiop:launch-program &quot;</span><span style="color:#60ac39;">firefox</span><span>&quot;) </span><span style="color:#999580;">; 비동기
+</span><span>
+</span><span>(uiop:run-program (</span><span style="color:#1fad83;">list </span><span>&quot;</span><span style="color:#60ac39;">git</span><span>&quot; &quot;</span><span style="color:#60ac39;">--help</span><span>&quot;) :output </span><span style="color:#b65611;">t</span><span>)
+</span><span>(uiop:run-program &quot;</span><span style="color:#60ac39;">htop</span><span>&quot; :output :interactive :input :interactive)
+</span><span>
+</span><span style="color:#999580;">;;; pipe: ls | sort
+</span><span>(uiop:run-program &quot;</span><span style="color:#60ac39;">sort</span><span>&quot;
+</span><span>                   :input
+</span><span>                   (uiop:process-info-output
+</span><span>                    (uiop:launch-program &quot;</span><span style="color:#60ac39;">ls</span><span>&quot;
+</span><span>                                         :output :stream))
+</span><span>                   :output :</span><span style="color:#1fad83;">string</span><span>)
+</span><span>(uiop:</span><span style="color:#b854d4;">with</span><span>-temporary-file (:stream s :</span><span style="color:#1fad83;">pathname</span><span> p :keep </span><span style="color:#b65611;">t</span><span>)
+</span><span>  (</span><span style="color:#1fad83;">format </span><span style="color:#b65611;">t </span><span>&quot;</span><span style="color:#60ac39;">path is ~a~%</span><span>&quot; p)
+</span><span>  (</span><span style="color:#1fad83;">format</span><span> s &quot;</span><span style="color:#60ac39;">hello, temporary file!</span><span>&quot;))
+</span><span>
+</span><span>(uiop:quit </span><span style="color:#b65611;">0</span><span>)
+</span></code></pre>
+
+</div><!-- post -->
+
+<hr />
+<script src="https://utteranc.es/client.js"
+        repo="lispkorea/lispkorea.post.comment"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<hr />
+
+    </div><!-- /.content -->
+  </div>
+
+</body>
+
+</html>

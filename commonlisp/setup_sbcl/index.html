@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>lispkorea</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="naver-site-verification" content="8264ac442137ef0c52727372d422237f2c9e6e29" />
+
+  <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="&#x2F;feed" />
+  <link rel="stylesheet" href="/main.css" />
+  <script defer src="/main.js"></script>
+</head>
+
+
+<body class="layout-documentation page-layout">
+  <nav class="navbar is-transparent is-centered has-shadow is-spaced">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="&#x2F;">
+          <b>Lisp Korea ☯ 🇰🇷</b>
+        </a>
+
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <!-- ref: https://fontawesome.com/icons?d=gallery -->
+
+          <a class="navbar-item" href="&#x2F;posts">
+            <span class="icon has-text-primary">
+              <i class="fas fa-book"></i>
+            </span>
+            <span>Posts</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;k-lisper">
+            <span class="icon is-success">
+              <i class="fas fa-pastafarianism"></i>
+            </span>
+            <span>K-Lisper</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;commonlisp">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/commonlisp.png" />
+            </span>
+            <span>Common Lisp</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;racket">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/racket.svg" />
+            </span>
+            <span>Racket</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;clojure">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/clojure.png" />
+            </span>
+            <span>Clojure</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;emacs">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/EmacsIcon.svg" />
+            </span>
+            <span>Emacs</span>
+          </a>
+
+          <a class="navbar-item" href="/etc">
+            <span class="icon has-text-primary">
+              <i class="fa-solid fa-music"></i>
+            </span>
+            <span>Etc</span>
+          </a>
+
+          <a class="navbar-item" href="/help">
+            <span class="icon has-text-primary">
+              <i class="fa-regular fa-comment"></i>
+            </span>
+            <span>Help</span>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a class="navbar-item" href="/feed.xml">
+            <i class="fas fa-rss-square"></i>
+          </a>
+          <a class="navbar-item " href="https://github.com/lispkorea/lispkorea.github.io/">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="content container is-fluid">
+      
+<h1 class="title">
+  Setup SBCL
+</h1>
+
+
+    <ul>
+    
+        <li>
+            <a href="https://lispkorea.github.io/commonlisp/setup_sbcl/#windows">Windows</a>
+            
+        </li>
+    
+        <li>
+            <a href="https://lispkorea.github.io/commonlisp/setup_sbcl/#ubuntu">Ubuntu</a>
+            
+        </li>
+    
+        <li>
+            <a href="https://lispkorea.github.io/commonlisp/setup_sbcl/#macos">macOs</a>
+            
+        </li>
+    
+    </ul>
+
+
+<hr />
+
+
+
+<div class="post">
+  <h2 id="windows">Windows</h2>
+<ul>
+<li>
+<p><a href="https://scoop.sh/">scoop</a></p>
+</li>
+<li>
+<p><a href="http://www.sbcl.org/">sbcl</a></p>
+</li>
+<li>
+<p>Win + R : powershell</p>
+</li>
+</ul>
+<pre data-lang="powershell" style="background-color:#fefbec;color:#6e6b5e;" class="language-powershell "><code class="language-powershell" data-lang="powershell"><span>
+</span><span>    </span><span style="color:#1fad83;">Set-ExecutionPolicy</span><span> RemoteSigned -scope CurrentUser
+</span><span>    iex (</span><span style="color:#1fad83;">new-object</span><span> net.webclient).downloadstring(&#39;</span><span style="color:#60ac39;">https://get.scoop.sh</span><span>&#39;)
+</span><span>
+</span></code></pre>
+<ul>
+<li>Win + R : cmd</li>
+</ul>
+<pre data-lang="cmd" style="background-color:#fefbec;color:#6e6b5e;" class="language-cmd "><code class="language-cmd" data-lang="cmd"><span>
+</span><span>&gt; scoop install gow
+</span><span>&gt; scoop install sbcl
+</span><span>
+</span><span>&gt; curl -O https://beta.quicklisp.org/quicklisp.lisp
+</span><span>&gt; sbcl --load quicklisp.lisp
+</span><span>
+</span><span>* (quicklisp-quickstart:install)
+</span><span>* (ql:add-to-init-file)
+</span><span>* (ql:quickload &quot;</span><span style="color:#60ac39;">slynk</span><span>&quot;)
+</span><span>* (quit)
+</span><span>
+</span></code></pre>
+<h2 id="ubuntu">Ubuntu</h2>
+<pre data-lang="zsh" style="background-color:#fefbec;color:#6e6b5e;" class="language-zsh "><code class="language-zsh" data-lang="zsh"><span>
+</span><span style="color:#d73737;">$</span><span> sudo apt-get install curl</span><span style="color:#d73737;"> -y
+</span><span style="color:#d73737;">$</span><span> sudo apt-get install sbcl</span><span style="color:#d73737;"> -y
+</span><span>
+</span><span style="color:#d73737;">$</span><span> curl</span><span style="color:#d73737;"> -O</span><span> https://beta.quicklisp.org/quicklisp.lisp
+</span><span style="color:#d73737;">$</span><span> sbcl</span><span style="color:#d73737;"> --load</span><span> quicklisp.lisp
+</span><span>
+</span><span style="color:#d73737;">*</span><span> (quicklisp-quickstart:install)
+</span><span style="color:#d73737;">*</span><span> (ql:add-to-init-file)
+</span><span style="color:#d73737;">*</span><span> (ql:quickload &quot;</span><span style="color:#60ac39;">slynk</span><span>&quot;)
+</span><span style="color:#d73737;">*</span><span> (quit)
+</span><span>
+</span></code></pre>
+<h2 id="macos">macOs</h2>
+<ul>
+<li><a href="https://brew.sh/index_ko">brew</a></li>
+</ul>
+<pre data-lang="zsh" style="background-color:#fefbec;color:#6e6b5e;" class="language-zsh "><code class="language-zsh" data-lang="zsh"><span style="color:#d73737;">$</span><span> /usr/bin/ruby</span><span style="color:#d73737;"> -e </span><span>&quot;$</span><span style="color:#60ac39;">(</span><span style="color:#d73737;">curl -fsSL</span><span style="color:#60ac39;"> https://raw.githubusercontent.com/Homebrew/install/master/install)</span><span>&quot;
+</span><span style="color:#d73737;">$</span><span> brew update
+</span><span style="color:#d73737;">$</span><span> brew upgrade
+</span><span style="color:#d73737;">$</span><span> brew doctor
+</span><span style="color:#d73737;">$</span><span> brew install sbcl
+</span><span>
+</span><span style="color:#d73737;">$</span><span> curl</span><span style="color:#d73737;"> -O</span><span> https://beta.quicklisp.org/quicklisp.lisp
+</span><span style="color:#d73737;">$</span><span> sbcl</span><span style="color:#d73737;"> --load</span><span> quicklisp.lisp
+</span><span>
+</span><span style="color:#d73737;">*</span><span> (quicklisp-quickstart:install)
+</span><span style="color:#d73737;">*</span><span> (ql:add-to-init-file)
+</span><span style="color:#d73737;">*</span><span> (ql:quickload &quot;</span><span style="color:#60ac39;">slynk</span><span>&quot;)
+</span><span style="color:#d73737;">*</span><span> (quit)
+</span></code></pre>
+
+</div><!-- post -->
+
+    </div><!-- /.content -->
+  </div>
+
+</body>
+
+</html>

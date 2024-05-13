@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>lispkorea</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="naver-site-verification" content="8264ac442137ef0c52727372d422237f2c9e6e29" />
+
+  <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="&#x2F;feed" />
+  <link rel="stylesheet" href="/main.css" />
+  <script defer src="/main.js"></script>
+</head>
+
+
+<body class="layout-documentation page-layout">
+  <nav class="navbar is-transparent is-centered has-shadow is-spaced">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="&#x2F;">
+          <b>Lisp Korea ☯ 🇰🇷</b>
+        </a>
+
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <!-- ref: https://fontawesome.com/icons?d=gallery -->
+
+          <a class="navbar-item" href="&#x2F;posts">
+            <span class="icon has-text-primary">
+              <i class="fas fa-book"></i>
+            </span>
+            <span>Posts</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;k-lisper">
+            <span class="icon is-success">
+              <i class="fas fa-pastafarianism"></i>
+            </span>
+            <span>K-Lisper</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;commonlisp">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/commonlisp.png" />
+            </span>
+            <span>Common Lisp</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;racket">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/racket.svg" />
+            </span>
+            <span>Racket</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;clojure">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/clojure.png" />
+            </span>
+            <span>Clojure</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;emacs">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/EmacsIcon.svg" />
+            </span>
+            <span>Emacs</span>
+          </a>
+
+          <a class="navbar-item" href="/etc">
+            <span class="icon has-text-primary">
+              <i class="fa-solid fa-music"></i>
+            </span>
+            <span>Etc</span>
+          </a>
+
+          <a class="navbar-item" href="/help">
+            <span class="icon has-text-primary">
+              <i class="fa-regular fa-comment"></i>
+            </span>
+            <span>Help</span>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a class="navbar-item" href="/feed.xml">
+            <i class="fas fa-rss-square"></i>
+          </a>
+          <a class="navbar-item " href="https://github.com/lispkorea/lispkorea.github.io/">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="content container is-fluid">
+      
+<h1 class="title">
+  rlwrap
+</h1>
+
+
+
+<div class="post">
+  <p><code>R</code>ead<code>l</code>ine <code>Wrap</code>per</p>
+<ul>
+<li><a href="https://github.com/hanslub42/rlwrap">rlwrap</a>
+<ul>
+<li>readline wrapper로 repl에서 키보드 바인딩을 사용할 수 있게 된다.</li>
+</ul>
+</li>
+</ul>
+<table><thead><tr><th></th><th></th></tr></thead><tbody>
+<tr><td>-r</td><td>--remember</td></tr>
+<tr><td>-f  {completion list}</td><td>--file={completion list}</td></tr>
+<tr><td>-m[newline substitute]</td><td>--multi-line{=newline substitute}</td></tr>
+<tr><td>-c</td><td>--complete-filenames</td></tr>
+<tr><td>-b  {chars}</td><td>--break-chars={chars}</td></tr>
+<tr><td>-q  {chars}</td><td>--quote-characters={chars}</td></tr>
+<tr><td>-i</td><td>--case-insensitive</td></tr>
+</tbody></table>
+<ul>
+<li><a href="https://www.cliki.net/rlwrap">https://www.cliki.net/rlwrap</a></li>
+<li><a href="https://github.com/vindarel/common-lisp-course-in-videos/blob/master/exercises/chapter%201%20-%20getting%20started/rlwrap-enhanced.md">https://github.com/vindarel/common-lisp-course-in-videos/blob/master/exercises/chapter%201%20-%20getting%20started/rlwrap-enhanced.md</a></li>
+</ul>
+<pre data-lang="zsh" style="background-color:#fefbec;color:#6e6b5e;" class="language-zsh "><code class="language-zsh" data-lang="zsh"><span style="color:#d73737;">$</span><span> rlwrap</span><span style="color:#d73737;"> -i -b </span><span>&#39;</span><span style="color:#60ac39;">()</span><span>&#39;</span><span style="color:#d73737;"> -f</span><span> completions.txt </span><span style="color:#b854d4;">[</span><span>all options here</span><span style="color:#b854d4;">]</span><span> sbcl $</span><span style="color:#d73737;">*
+</span></code></pre>
+
+</div><!-- post -->
+
+<hr />
+<script src="https://utteranc.es/client.js"
+        repo="lispkorea/lispkorea.post.comment"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<hr />
+
+    </div><!-- /.content -->
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>lispkorea</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="naver-site-verification" content="8264ac442137ef0c52727372d422237f2c9e6e29" />
+
+  <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="&#x2F;feed" />
+  <link rel="stylesheet" href="/main.css" />
+  <script defer src="/main.js"></script>
+</head>
+
+
+<body class="layout-documentation page-layout">
+  <nav class="navbar is-transparent is-centered has-shadow is-spaced">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="&#x2F;">
+          <b>Lisp Korea ☯ 🇰🇷</b>
+        </a>
+
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <!-- ref: https://fontawesome.com/icons?d=gallery -->
+
+          <a class="navbar-item" href="&#x2F;posts">
+            <span class="icon has-text-primary">
+              <i class="fas fa-book"></i>
+            </span>
+            <span>Posts</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;k-lisper">
+            <span class="icon is-success">
+              <i class="fas fa-pastafarianism"></i>
+            </span>
+            <span>K-Lisper</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;commonlisp">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/commonlisp.png" />
+            </span>
+            <span>Common Lisp</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;racket">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/racket.svg" />
+            </span>
+            <span>Racket</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;clojure">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/clojure.png" />
+            </span>
+            <span>Clojure</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;emacs">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/EmacsIcon.svg" />
+            </span>
+            <span>Emacs</span>
+          </a>
+
+          <a class="navbar-item" href="/etc">
+            <span class="icon has-text-primary">
+              <i class="fa-solid fa-music"></i>
+            </span>
+            <span>Etc</span>
+          </a>
+
+          <a class="navbar-item" href="/help">
+            <span class="icon has-text-primary">
+              <i class="fa-regular fa-comment"></i>
+            </span>
+            <span>Help</span>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a class="navbar-item" href="/feed.xml">
+            <i class="fas fa-rss-square"></i>
+          </a>
+          <a class="navbar-item " href="https://github.com/lispkorea/lispkorea.github.io/">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="content container is-fluid">
+      
+<h1 class="title">
+  UTM
+</h1>
+
+
+
+<div class="post">
+  <p>Apple Silicon Mac에서 VM을 실행할 수 있게 해주는 UTM을 소개합니다.</p>
+<ul>
+<li><a href="https://github.com/utmapp/UTM/releases">소스</a></li>
+<li><a href="https://mac.getutm.app/">홈페이지</a></li>
+</ul>
+<h2 id="ubuntu-sseocibbeo">Ubuntu 설치법</h2>
+<ul>
+<li>이미지 다운로드
+<ul>
+<li><a href="https://ubuntu.com/download/server#downloads">x86_64</a></li>
+<li><a href="https://ubuntu.com/download/server/arm">arm64</a></li>
+<li>Ubuntu server가 권장하는 용량을 25 GB입니다.</li>
+</ul>
+</li>
+</ul>
+<pre data-lang="zsh" style="background-color:#fefbec;color:#6e6b5e;" class="language-zsh "><code class="language-zsh" data-lang="zsh"><span style="color:#d73737;">sudo</span><span> apt update
+</span><span>
+</span><span style="color:#999580;"># ssh 설치는 기본
+</span><span style="color:#d73737;">sudo</span><span> apt install openssh-server
+</span><span style="color:#d73737;">sudo</span><span> systemctl status ssh
+</span><span>
+</span><span style="color:#999580;"># ssh 방화벽 설정
+</span><span style="color:#d73737;">sudo</span><span> ufw allow ssh
+</span><span style="color:#d73737;">sudo</span><span> ufw status
+</span><span>
+</span><span style="color:#999580;"># ifconfig 명령어가 없는 경우
+</span><span style="color:#d73737;">sudo</span><span> apt install net-tools
+</span><span>
+</span><span>
+</span><span style="color:#999580;"># 공유폴더 설정
+</span><span style="color:#d73737;">mkdir -p</span><span> /media/helloworld
+</span><span style="color:#1fad83;">cd</span><span> /media/helloworld
+</span><span style="color:#d73737;">sudo</span><span> chown</span><span style="color:#d73737;"> -R </span><span>$</span><span style="color:#d73737;">USER</span><span> /media/helloworld
+</span><span style="color:#d73737;">sudo</span><span> mount</span><span style="color:#d73737;"> -t</span><span> 9p</span><span style="color:#d73737;"> -o</span><span> trans=virtio share /media/helloworld</span><span style="color:#d73737;"> -oversion</span><span>=9p2000.L
+</span><span>
+</span><span style="color:#999580;"># 재부팅시에도 마운트되도록 설정
+</span><span style="color:#d73737;">sudo</span><span> vim /etc/fstab
+</span><span style="color:#d73737;">share</span><span> /media/helloworld 9p trans=virtio,version=9p2000.L,rw,_netdev,nofail 0 0
+</span></code></pre>
+<pre data-lang="zsh" style="background-color:#fefbec;color:#6e6b5e;" class="language-zsh "><code class="language-zsh" data-lang="zsh"><span style="color:#999580;"># 그래픽환경이 필요한경우
+</span><span style="color:#d73737;">sudo</span><span> apt-get install</span><span style="color:#d73737;"> -y --no-install-recommends</span><span> ubuntu-desktop
+</span><span style="color:#d73737;">sudo</span><span> add-apt-repository ppa:mozillateam/ppa
+</span><span>
+</span><span style="color:#999580;"># desktop 모드로 전환
+</span><span style="color:#d73737;">startx
+</span></code></pre>
+<h2 id="ref">ref</h2>
+<ul>
+<li><a href="https://blog.pocu.academy/ko/2023/10/09/how-to-build-and-debug-x86-program-on-apple-silicon-mac.html">https://blog.pocu.academy/ko/2023/10/09/how-to-build-and-debug-x86-program-on-apple-silicon-mac.html</a></li>
+<li><a href="https://webnautes.tistory.com/2103">https://webnautes.tistory.com/2103</a></li>
+</ul>
+
+</div><!-- post -->
+
+    </div><!-- /.content -->
+  </div>
+
+</body>
+
+</html>

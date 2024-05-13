@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>lispkorea</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="naver-site-verification" content="8264ac442137ef0c52727372d422237f2c9e6e29" />
+
+  <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="&#x2F;feed" />
+  <link rel="stylesheet" href="/main.css" />
+  <script defer src="/main.js"></script>
+</head>
+
+
+<body class="layout-documentation page-layout">
+  <nav class="navbar is-transparent is-centered has-shadow is-spaced">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="&#x2F;">
+          <b>Lisp Korea ☯ 🇰🇷</b>
+        </a>
+
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <!-- ref: https://fontawesome.com/icons?d=gallery -->
+
+          <a class="navbar-item" href="&#x2F;posts">
+            <span class="icon has-text-primary">
+              <i class="fas fa-book"></i>
+            </span>
+            <span>Posts</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;k-lisper">
+            <span class="icon is-success">
+              <i class="fas fa-pastafarianism"></i>
+            </span>
+            <span>K-Lisper</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;commonlisp">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/commonlisp.png" />
+            </span>
+            <span>Common Lisp</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;racket">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/racket.svg" />
+            </span>
+            <span>Racket</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;clojure">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/clojure.png" />
+            </span>
+            <span>Clojure</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;emacs">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/EmacsIcon.svg" />
+            </span>
+            <span>Emacs</span>
+          </a>
+
+          <a class="navbar-item" href="/etc">
+            <span class="icon has-text-primary">
+              <i class="fa-solid fa-music"></i>
+            </span>
+            <span>Etc</span>
+          </a>
+
+          <a class="navbar-item" href="/help">
+            <span class="icon has-text-primary">
+              <i class="fa-regular fa-comment"></i>
+            </span>
+            <span>Help</span>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a class="navbar-item" href="/feed.xml">
+            <i class="fas fa-rss-square"></i>
+          </a>
+          <a class="navbar-item " href="https://github.com/lispkorea/lispkorea.github.io/">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="content container is-fluid">
+      
+<h1 class="title">
+  버전
+</h1>
+
+
+
+<div class="post">
+  <table><thead><tr><th>버전</th><th>날짜</th><th>주목할만 변경사항</th></tr></thead><tbody>
+<tr><td>1.11.1</td><td>2022-04-05</td><td></td></tr>
+<tr><td></td><td></td><td>Rolling back unintended change in binary serialisation of objects of types clojure.lang.Keyword and clojure.lang.ArraySeq.</td></tr>
+<tr><td>1.11.0</td><td>2022-03-22</td><td></td></tr>
+<tr><td></td><td></td><td>New syntax for keyword argument invocation, new clojure.math namespace, namespace aliasing without loading, and new helper functions added to clojure.core</td></tr>
+<tr><td>1.10.3</td><td>2021-03-04</td><td></td></tr>
+<tr><td></td><td></td><td>prepl support for reader conditionals</td></tr>
+<tr><td>1.10.2</td><td>2021-01-26</td><td></td></tr>
+<tr><td></td><td></td><td>Java interoperability/compatibility improvements and other important language fixes</td></tr>
+<tr><td>1.10.1</td><td>2019-06-06</td><td></td></tr>
+<tr><td></td><td></td><td>Working around a Java performance regression and improving error reporting from clojure.main</td></tr>
+<tr><td>1.10</td><td>2018-12-17</td><td></td></tr>
+<tr><td></td><td></td><td>Improved error reporting, Java compatibility</td></tr>
+<tr><td>1.9</td><td>2017-12-08</td><td></td></tr>
+<tr><td></td><td></td><td>Integration with spec, command-line tools</td></tr>
+<tr><td>1.8</td><td>2016-01-19</td><td></td></tr>
+<tr><td></td><td></td><td>Additional string functions, direct linking, socket server</td></tr>
+<tr><td>1.7</td><td>2015-06-30</td><td></td></tr>
+<tr><td></td><td></td><td>Transducers, reader conditionals</td></tr>
+<tr><td>1.6</td><td>2014-03-25</td><td></td></tr>
+<tr><td></td><td></td><td>Java API, improved hashing algorithms</td></tr>
+<tr><td>1.5.1</td><td>2013-03-10</td><td></td></tr>
+<tr><td></td><td></td><td>Fixing a memory leak</td></tr>
+<tr><td>1.5</td><td>2013-03-01</td><td></td></tr>
+<tr><td></td><td></td><td>Reducers</td></tr>
+<tr><td>1.4</td><td>2012-04-15</td><td></td></tr>
+<tr><td></td><td></td><td>Reader literals</td></tr>
+<tr><td>1.3</td><td>2011-09-23</td><td></td></tr>
+<tr><td></td><td></td><td>Enhanced primitive support</td></tr>
+<tr><td>1.2</td><td>2010-08-19</td><td></td></tr>
+<tr><td></td><td></td><td>Protocols</td></tr>
+<tr><td>1.1</td><td>2009-12-31</td><td></td></tr>
+<tr><td></td><td></td><td>Futures</td></tr>
+<tr><td>1.0</td><td>2009-05-04</td><td></td></tr>
+<tr><td></td><td></td><td>First stable release</td></tr>
+<tr><td>0</td><td>2007-10-17</td><td></td></tr>
+<tr><td></td><td></td><td>Initial public release</td></tr>
+</tbody></table>
+<h2 id="ref">Ref</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Clojure">https://en.wikipedia.org/wiki/Clojure</a></li>
+<li><a href="https://clojure.org/about/history">https://clojure.org/about/history</a></li>
+</ul>
+
+</div><!-- post -->
+
+<hr />
+<script src="https://utteranc.es/client.js"
+        repo="lispkorea/lispkorea.post.comment"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<hr />
+
+    </div><!-- /.content -->
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>lispkorea</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="naver-site-verification" content="8264ac442137ef0c52727372d422237f2c9e6e29" />
+
+  <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="&#x2F;feed" />
+  <link rel="stylesheet" href="/main.css" />
+  <script defer src="/main.js"></script>
+</head>
+
+
+<body class="layout-documentation page-layout">
+  <nav class="navbar is-transparent is-centered has-shadow is-spaced">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="&#x2F;">
+          <b>Lisp Korea ☯ 🇰🇷</b>
+        </a>
+
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <!-- ref: https://fontawesome.com/icons?d=gallery -->
+
+          <a class="navbar-item" href="&#x2F;posts">
+            <span class="icon has-text-primary">
+              <i class="fas fa-book"></i>
+            </span>
+            <span>Posts</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;k-lisper">
+            <span class="icon is-success">
+              <i class="fas fa-pastafarianism"></i>
+            </span>
+            <span>K-Lisper</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;commonlisp">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/commonlisp.png" />
+            </span>
+            <span>Common Lisp</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;racket">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/racket.svg" />
+            </span>
+            <span>Racket</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;clojure">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/clojure.png" />
+            </span>
+            <span>Clojure</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;emacs">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/EmacsIcon.svg" />
+            </span>
+            <span>Emacs</span>
+          </a>
+
+          <a class="navbar-item" href="/etc">
+            <span class="icon has-text-primary">
+              <i class="fa-solid fa-music"></i>
+            </span>
+            <span>Etc</span>
+          </a>
+
+          <a class="navbar-item" href="/help">
+            <span class="icon has-text-primary">
+              <i class="fa-regular fa-comment"></i>
+            </span>
+            <span>Help</span>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a class="navbar-item" href="/feed.xml">
+            <i class="fas fa-rss-square"></i>
+          </a>
+          <a class="navbar-item " href="https://github.com/lispkorea/lispkorea.github.io/">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="content container is-fluid">
+      
+<h1 class="title">
+  Setup Clojure
+</h1>
+
+
+    <ul>
+    
+        <li>
+            <a href="https://lispkorea.github.io/clojure/setup_clojure/#windows">Windows</a>
+            
+        </li>
+    
+        <li>
+            <a href="https://lispkorea.github.io/clojure/setup_clojure/#ubuntu">Ubuntu</a>
+            
+        </li>
+    
+        <li>
+            <a href="https://lispkorea.github.io/clojure/setup_clojure/#macos">macOs</a>
+            
+        </li>
+    
+    </ul>
+
+
+<hr />
+
+
+
+<div class="post">
+  <h2 id="windows">Windows</h2>
+<p><a href="https://scoop.sh/">scoop</a></p>
+<ul>
+<li>Win + R : powershell</li>
+</ul>
+<pre data-lang="powershell" style="background-color:#fefbec;color:#6e6b5e;" class="language-powershell "><code class="language-powershell" data-lang="powershell"><span>    </span><span style="color:#1fad83;">Set-ExecutionPolicy</span><span> RemoteSigned -scope CurrentUser
+</span><span>    iex (</span><span style="color:#1fad83;">new-object</span><span> net.webclient).downloadstring(&#39;</span><span style="color:#60ac39;">https://get.scoop.sh</span><span>&#39;)
+</span></code></pre>
+<ul>
+<li>Win + R : cmd</li>
+</ul>
+<pre data-lang="cmd" style="background-color:#fefbec;color:#6e6b5e;" class="language-cmd "><code class="language-cmd" data-lang="cmd"><span>&gt; scoop install git
+</span><span>&gt; scoop bucket  add java
+</span><span>&gt; scoop bucket  add extras
+</span><span>&gt; scoop bucket  add scoop-clojure https://github.com/littleli/scoop-clojure
+</span><span>&gt; scoop install temurin-lts-jdk
+</span><span>&gt; scoop install clj-deps
+</span><span>&gt; scoop update  clj-deps
+</span></code></pre>
+<h2 id="ubuntu">Ubuntu</h2>
+<pre data-lang="zsh" style="background-color:#fefbec;color:#6e6b5e;" class="language-zsh "><code class="language-zsh" data-lang="zsh"><span style="color:#d73737;">sudo</span><span> apt install</span><span style="color:#d73737;"> -y</span><span> wget apt-transport-https
+</span><span style="color:#d73737;">sudo</span><span> mkdir</span><span style="color:#d73737;"> -p</span><span> /etc/apt/keyrings
+</span><span style="color:#d73737;">sudo</span><span> wget</span><span style="color:#d73737;"> -O</span><span> - https://packages.adoptium.net/artifactory/api/gpg/key/public | </span><span style="color:#d73737;">tee</span><span> /etc/apt/keyrings/adoptium.asc
+</span><span style="color:#d73737;">sudo</span><span> echo &quot;</span><span style="color:#60ac39;">deb [signed-by=/etc/apt/keyrings/adoptium.asc] https://packages.adoptium.net/artifactory/deb </span><span>$</span><span style="color:#60ac39;">(</span><span style="color:#d73737;">awk -F</span><span>= &#39;</span><span style="color:#60ac39;">/^VERSION_CODENAME/{print$2}</span><span>&#39;</span><span style="color:#60ac39;"> /etc/os-release) main</span><span>&quot; | </span><span style="color:#d73737;">sudo</span><span> tee /etc/apt/sources.list.d/adoptium.list
+</span><span style="color:#d73737;">sudo</span><span> apt update </span><span style="color:#999580;"># update if you haven&#39;t already
+</span><span style="color:#d73737;">sudo</span><span> apt search temurin
+</span><span>
+</span><span style="color:#d73737;">sudo</span><span> apt install</span><span style="color:#d73737;"> -y</span><span> 원하는_버전_선택
+</span></code></pre>
+<table><thead><tr><th></th><th>sources.list</th></tr></thead><tbody>
+<tr><td>파일</td><td>/etc/apt/sources.list</td></tr>
+<tr><td>디렉토리</td><td>/etc/apt/sources.list.d/</td></tr>
+</tbody></table>
+<ul>
+<li>Eclipse Temurin은 Adoptium에서 제공하는 OpenJDK 배포판의 이름
+<ul>
+<li>adoptium
+<ul>
+<li>Oracle OpenJDK와 호환되는 자바 개발 키트(Java Development Kit, JDK)를 제공</li>
+<li>이전에 AdoptOpenJDK로 알려져 있었음</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<table><thead><tr><th></th><th>OpenJ9</th><th>HotSpot</th></tr></thead><tbody>
+<tr><td>JVM</td><td>IBM에서 개발한 JVM</td><td>JVM은 오랫동안 자바의 기본 JVM</td></tr>
+<tr><td>GC</td><td>Eclipse OpenJ9</td><td>주로 기본 메모리 관리 방식</td></tr>
+<tr><td>License</td><td>Eclipse Public License (EPL)</td><td>Oracle Binary Code License (BCL)</td></tr>
+<tr><td></td><td>GNU General Public License (GPL)</td><td>GNU General Public License (GPL)</td></tr>
+<tr><td></td><td></td><td>GNU General Public License with Classpath Exception (GPL+CE) - JDK only</td></tr>
+</tbody></table>
+<pre data-lang="zsh" style="background-color:#fefbec;color:#6e6b5e;" class="language-zsh "><code class="language-zsh" data-lang="zsh"><span style="color:#d73737;">$</span><span> /bin/bash</span><span style="color:#d73737;"> -c </span><span>&quot;$</span><span style="color:#60ac39;">(</span><span style="color:#d73737;">curl -fsSL</span><span style="color:#60ac39;"> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)</span><span>&quot;
+</span><span style="color:#d73737;">$</span><span> (echo; </span><span style="color:#1fad83;">echo </span><span>&#39;</span><span style="color:#60ac39;">eval &quot;$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)&quot;</span><span>&#39;) &gt;&gt; /home/iv/.bashrc
+</span><span style="color:#d73737;">$</span><span> eval &quot;$</span><span style="color:#60ac39;">(</span><span style="color:#d73737;">/home/linuxbrew/.linuxbrew/bin/brew</span><span style="color:#60ac39;"> shellenv)</span><span>&quot;
+</span><span style="color:#d73737;">$</span><span> sudo apt-get install build-essential
+</span><span style="color:#d73737;">$</span><span> brew install gcc
+</span><span style="color:#d73737;">$</span><span> brew install clojure/tools/clojure
+</span><span style="color:#d73737;">$</span><span> clj
+</span><span style="color:#d73737;">Clojure</span><span> 1.11.1
+</span><span style="color:#d73737;">user</span><span>=&gt;
+</span></code></pre>
+<h2 id="macos">macOs</h2>
+<ul>
+<li><a href="https://brew.sh/">brew</a></li>
+<li><a href="https://adoptium.net/">java</a></li>
+<li><a href="https://github.com/seancorfield/deps-new">deps-new</a></li>
+</ul>
+<pre data-lang="zsh" style="background-color:#fefbec;color:#6e6b5e;" class="language-zsh "><code class="language-zsh" data-lang="zsh"><span style="color:#d73737;">$</span><span> brew install clojure/tools/clojure </span><span style="color:#999580;"># 설치시
+</span><span style="color:#d73737;">$</span><span> brew update clojure/tools/clojure  </span><span style="color:#999580;"># 업데이트시
+</span><span>
+</span><span style="color:#d73737;">$</span><span> clojure</span><span style="color:#d73737;"> -Ttools</span><span> install-latest :lib io.github.seancorfield/deps-new :as new
+</span><span style="color:#d73737;">$</span><span> clojure</span><span style="color:#d73737;"> -Tnew</span><span> app :name myusername/mynewapp
+</span><span style="color:#d73737;">$</span><span> cd mynewapp
+</span><span style="color:#d73737;">$</span><span> clj</span><span style="color:#d73737;"> -X</span><span>:run-x
+</span><span style="color:#d73737;">Hello,</span><span> Clojure!
+</span></code></pre>
+
+</div><!-- post -->
+
+    </div><!-- /.content -->
+  </div>
+
+</body>
+
+</html>

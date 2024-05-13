@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>lispkorea</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="naver-site-verification" content="8264ac442137ef0c52727372d422237f2c9e6e29" />
+
+  <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="&#x2F;feed" />
+  <link rel="stylesheet" href="/main.css" />
+  <script defer src="/main.js"></script>
+</head>
+
+
+<body class="layout-documentation page-layout">
+  <nav class="navbar is-transparent is-centered has-shadow is-spaced">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="&#x2F;">
+          <b>Lisp Korea ☯ 🇰🇷</b>
+        </a>
+
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <!-- ref: https://fontawesome.com/icons?d=gallery -->
+
+          <a class="navbar-item" href="&#x2F;posts">
+            <span class="icon has-text-primary">
+              <i class="fas fa-book"></i>
+            </span>
+            <span>Posts</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;k-lisper">
+            <span class="icon is-success">
+              <i class="fas fa-pastafarianism"></i>
+            </span>
+            <span>K-Lisper</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;commonlisp">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/commonlisp.png" />
+            </span>
+            <span>Common Lisp</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;racket">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/racket.svg" />
+            </span>
+            <span>Racket</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;clojure">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/clojure.png" />
+            </span>
+            <span>Clojure</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;emacs">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/EmacsIcon.svg" />
+            </span>
+            <span>Emacs</span>
+          </a>
+
+          <a class="navbar-item" href="/etc">
+            <span class="icon has-text-primary">
+              <i class="fa-solid fa-music"></i>
+            </span>
+            <span>Etc</span>
+          </a>
+
+          <a class="navbar-item" href="/help">
+            <span class="icon has-text-primary">
+              <i class="fa-regular fa-comment"></i>
+            </span>
+            <span>Help</span>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a class="navbar-item" href="/feed.xml">
+            <i class="fas fa-rss-square"></i>
+          </a>
+          <a class="navbar-item " href="https://github.com/lispkorea/lispkorea.github.io/">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="content container is-fluid">
+      
+<h1 class="title">
+  WSL
+</h1>
+
+
+
+<div class="post">
+  <p>WSL(<code>W</code>indows <code>S</code>ubsystem for <code>L</code>inux)</p>
+<h2 id="wsl-sseojjeon">WSL 설정</h2>
+<ul>
+<li><a href="https://learn.microsoft.com/ko-kr/windows/wsl/install">WSL 설치</a></li>
+<li>VcXsrv
+<ul>
+<li>Visual C++로 컴파일된 Xorg's X-Server</li>
+<li>WSL은 터미널인데, GUI를 사용하려면 X-Server가 필요함</li>
+<li><a href="https://sourceforge.net/projects/vcxsrv/">다운로드</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="sijjapoldde-sseojjeon"><a href="https://learn.microsoft.com/en-us/windows/terminal/customize-settings/profile-general">시작폴더 설정</a></h3>
+<pre data-lang="json" style="background-color:#fefbec;color:#6e6b5e;" class="language-json "><code class="language-json" data-lang="json"><span>{
+</span><span>    &quot;</span><span style="color:#60ac39;">startingDirectory</span><span>&quot; : &quot;</span><span style="color:#60ac39;">//wsl$/Ubuntu/home/{유저명}</span><span>&quot;,
+</span><span>}
+</span></code></pre>
+<h2 id="wslyi-poteureul-windowse-poteuro-maebcamp-poteu-pohwewedd-maebcamp">WSL의 포트를 Windows에 포트로 맵핑(포트 포워딩/맵핑)</h2>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/windows/wsl/wsl-config#wslconfig">wslconfig</a>
+<ul>
+<li>파일 인코딩은: UTF-8 without BOM</li>
+<li>ref
+<ul>
+<li><a href="https://qiita.com/_urusakuma/items/b8a14d4fcd925c4aebc2">https://qiita.com/_urusakuma/items/b8a14d4fcd925c4aebc2</a></li>
+<li><a href="https://qiita.com/snaka/items/a8eee4cfc8f7d733e6ab">https://qiita.com/snaka/items/a8eee4cfc8f7d733e6ab</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><code>C:\Users\{유저명}\.wslconfig</code></p>
+<pre data-lang="ini" style="background-color:#fefbec;color:#6e6b5e;" class="language-ini "><code class="language-ini" data-lang="ini"><span style="color:#d73737;">localhostForwarding</span><span>=</span><span style="color:#b65611;">True
+</span></code></pre>
+<h2 id="editeo">에디터</h2>
+<ul>
+<li>emacs
+<ul>
+<li><a href="https://www.emacswiki.org/emacs/Emacs_and_the_Windows_Subsystem_for_Linux">https://www.emacswiki.org/emacs/Emacs_and_the_Windows_Subsystem_for_Linux</a></li>
+<li><a href="https://shelper.github.io/posts/setup-emacs-in-wsl2/">https://shelper.github.io/posts/setup-emacs-in-wsl2/</a></li>
+</ul>
+</li>
+<li>vscode
+<ul>
+<li><a href="https://code.visualstudio.com/docs/remote/wsl-tutorial">https://code.visualstudio.com/docs/remote/wsl-tutorial</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl">vscode확장: wsl</a></li>
+</ul>
+</li>
+<li>intellij
+<ul>
+<li><a href="https://www.jetbrains.com/help/idea/how-to-use-wsl-development-environment-in-product.html#create_project_for_wsl">https://www.jetbrains.com/help/idea/how-to-use-wsl-development-environment-in-product.html#create_project_for_wsl</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="vscodereul-wsl-ubuntue-jjijjeo-sseocihaneun-ggyeonu">vscode를 wsl-ubuntu에 직접 설치하는 경우</h3>
+<p>비추천. 하지만 원하는 사람이 있을 수도 있어서 남겨둠.</p>
+<pre data-lang="zsh" style="background-color:#fefbec;color:#6e6b5e;" class="language-zsh "><code class="language-zsh" data-lang="zsh"><span style="color:#999580;"># ref: https://code.visualstudio.com/docs/setup/linux
+</span><span style="color:#999580;"># ref: https://qiita.com/yoshiyasu1111/items/e21a77ed68b52cb5f7c8
+</span><span>
+</span><span style="color:#d73737;">$</span><span> curl https://packages.microsoft.com/keys/microsoft.asc | </span><span style="color:#d73737;">gpg --dearmor </span><span>&gt; microsoft.gpg
+</span><span style="color:#d73737;">$</span><span> sudo install</span><span style="color:#d73737;"> -o</span><span> root</span><span style="color:#d73737;"> -g</span><span> root</span><span style="color:#d73737;"> -m</span><span> 644 microsoft.gpg /etc/apt/trusted.gpg.d/
+</span><span style="color:#d73737;">$</span><span> sudo sh</span><span style="color:#d73737;"> -c </span><span>&#39;</span><span style="color:#60ac39;">echo &quot;deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main&quot; &gt; /etc/apt/sources.list.d/vscode.list</span><span>&#39;
+</span><span style="color:#d73737;">$</span><span> sudo apt install apt-transport-https
+</span><span style="color:#d73737;">$</span><span> sudo apt update
+</span><span style="color:#d73737;">$</span><span> sudo apt list</span><span style="color:#d73737;"> -a</span><span> code
+</span></code></pre>
+<h2 id="ref">ref</h2>
+<ul>
+<li><a href="https://jakupsil.tistory.com/45">https://jakupsil.tistory.com/45</a></li>
+<li><a href="https://learn.microsoft.com/ko-kr/windows/terminal/troubleshooting">https://learn.microsoft.com/ko-kr/windows/terminal/troubleshooting</a></li>
+</ul>
+<hr />
+<h2 id="yuryorasse-deprecated">유료라서 deprecated</h2>
+<ul>
+<li>GWSL - 유료
+<ul>
+<li><a href="https://github.com/Opticos/GWSL-Source">소스</a></li>
+<li><a href="https://opticos.github.io/gwsl/">홈페이지</a></li>
+</ul>
+</li>
+<li>OpenInWSL - 유료
+<ul>
+<li><a href="https://github.com/Opticos/OpenInWSL-Source">소스</a></li>
+<li><a href="https://opticos.github.io/openinwsl/">홈페이지</a></li>
+</ul>
+</li>
+</ul>
+
+</div><!-- post -->
+
+    </div><!-- /.content -->
+  </div>
+
+</body>
+
+</html>

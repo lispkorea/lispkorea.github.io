@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>lispkorea</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="naver-site-verification" content="8264ac442137ef0c52727372d422237f2c9e6e29" />
+
+  <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="&#x2F;feed" />
+  <link rel="stylesheet" href="/main.css" />
+  <script defer src="/main.js"></script>
+</head>
+
+
+<body class="layout-documentation page-layout">
+  <nav class="navbar is-transparent is-centered has-shadow is-spaced">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="&#x2F;">
+          <b>Lisp Korea ☯ 🇰🇷</b>
+        </a>
+
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <!-- ref: https://fontawesome.com/icons?d=gallery -->
+
+          <a class="navbar-item" href="&#x2F;posts">
+            <span class="icon has-text-primary">
+              <i class="fas fa-book"></i>
+            </span>
+            <span>Posts</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;k-lisper">
+            <span class="icon is-success">
+              <i class="fas fa-pastafarianism"></i>
+            </span>
+            <span>K-Lisper</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;commonlisp">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/commonlisp.png" />
+            </span>
+            <span>Common Lisp</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;racket">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/racket.svg" />
+            </span>
+            <span>Racket</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;clojure">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/clojure.png" />
+            </span>
+            <span>Clojure</span>
+          </a>
+
+          <a class="navbar-item" href="&#x2F;emacs">
+            <span class="icon has-text-primary">
+              <img src="/res/icon/EmacsIcon.svg" />
+            </span>
+            <span>Emacs</span>
+          </a>
+
+          <a class="navbar-item" href="/etc">
+            <span class="icon has-text-primary">
+              <i class="fa-solid fa-music"></i>
+            </span>
+            <span>Etc</span>
+          </a>
+
+          <a class="navbar-item" href="/help">
+            <span class="icon has-text-primary">
+              <i class="fa-regular fa-comment"></i>
+            </span>
+            <span>Help</span>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a class="navbar-item" href="/feed.xml">
+            <i class="fas fa-rss-square"></i>
+          </a>
+          <a class="navbar-item " href="https://github.com/lispkorea/lispkorea.github.io/">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="content container is-fluid">
+      
+<h1 class="title">
+  Setup Calva
+</h1>
+
+
+
+<div class="post">
+  <ul>
+<li>
+<p><a href="https://code.visualstudio.com/download">Visual Studio Code</a> 설치</p>
+</li>
+<li>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=betterthantomorrow.calva">Calva: Clojure &amp; ClojureScript Interactive Programming</a> 설치</p>
+<ul>
+<li><a href="https://calva.io/">https://calva.io/</a></li>
+<li><a href="https://calva.io/paredit/">paredit help</a></li>
+</ul>
+</li>
+<li>
+<p>폴더를 만들고</p>
+</li>
+<li>
+<p>deps.edn을 생성</p>
+</li>
+</ul>
+<pre data-lang="edn" style="background-color:#fefbec;color:#6e6b5e;" class="language-edn "><code class="language-edn" data-lang="edn"><span>{}
+</span></code></pre>
+<ul>
+<li>
+<p>Jack-in을 시도한다</p>
+<ul>
+<li><code>Ctrl + Shift + P</code> &gt; Calva: Start a Project REPL and Connect (aka Jack-In) &gt; deps.edn</li>
+</ul>
+</li>
+<li>
+<p>단축키</p>
+<ul>
+<li><code>Ctrl + K, Ctrl + S</code> &gt; Keyboard Shortcuts</li>
+</ul>
+</li>
+</ul>
+<table><thead><tr><th></th><th></th></tr></thead><tbody>
+<tr><td>Calva: Start a Project REPL and Connect (aka Jack-In)</td><td>Ctrl + Alt + C, Ctrl + Alt + J</td></tr>
+<tr><td>Calva: Evaluate Current Form  (or selection, if any)</td><td>Ctrl + Enter</td></tr>
+<tr><td>Go To Definition</td><td>F12</td></tr>
+<tr><td>Go Back</td><td>Alt + Left</td></tr>
+</tbody></table>
+<ul>
+<li>Top Level Evaluate
+<ul>
+<li>파일의 최상위 형식이 아님(구조적 의미에서 최상위 수준을 의미)</li>
+<li>def로 시작하는 구문들이 Top Level Evaluate에 해당.</li>
+<li>다만, Calva에서는 다른 form으로 묶이지 않는, 모든 form들이 top level form으로 간주</li>
+<li>또, Calva에서는 (comment ...) 안에 있는 form들도 top level form으로 간주 (<a href="https://calva.io/rich-comments/">Rich Comments</a>지원)</li>
+</ul>
+</li>
+</ul>
+
+</div><!-- post -->
+
+<hr />
+<script src="https://utteranc.es/client.js"
+        repo="lispkorea/lispkorea.post.comment"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<hr />
+
+    </div><!-- /.content -->
+  </div>
+
+</body>
+
+</html>
