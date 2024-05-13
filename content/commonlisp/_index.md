@@ -8,7 +8,7 @@ title = "Common Lisp"
  CL은 Lisp의 가장 널리 사용되는 방언입니다.
  CL은 ANSI에 의해 표준화되었으며, ANSI Common Lisp라고도 합니다.
 
-- [**간단하게 살펴보기**](https://github.com/adambard/learnxinyminutes-docs/pull/4805/commits/7d76ca2f693501ea51964b5762d91f54448c4e9f?short_path=db60d20#diff-db60d209cb5041aa48769c35930e6ccda6046e038187272790018ffdb1626b0d)
+- [**간단하게 살펴보기**](https://learnxinyminutes.com/docs/ko-kr/common-lisp-kr/)
 - [책](/etc/book/#common-lisp)
 - [라이브러리](library)
 - [유틸리티](utility)
