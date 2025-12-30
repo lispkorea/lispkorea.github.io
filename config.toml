@@ -3,13 +3,13 @@
 base_url = "https://lispkorea.github.io"
 title = "Lisp을 좋아하는 사람들의 그룹"
 description = "Lisp을 좋아하는 사람들의 그룹"
-# default_language = "ko"
+default_language = "ko"
 
 compile_sass = true
 build_search_index = true
 
-generate_feed = true
-feed_filename = "feed.xml"
+generate_feeds = true
+feed_filenames  = ["feed.xml"]
 
 
 [markdown]
@@ -21,6 +21,8 @@ render_emoji = true
 [slugify]
 paths = "safe"
 
+[search]
+index_format = "fuse_javascript"
 
 [extra]
 [extra.paths]
