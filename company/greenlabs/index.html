@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+	<head>
+		<meta charset="utf-8">
+		<title>lispkorea</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="naver-site-verification" content="8264ac442137ef0c52727372d422237f2c9e6e29">
+
+		<link rel="icon" href="/favicon.svg" type="image/x-icon">
+		<link rel="icon" href="/favicon.svg" type="image/x-icon">
+		<link rel="alternate" type="application/atom+xml" title="Atom" href="&#x2F;feed">
+		<link rel="stylesheet" href="/main.css">
+
+		<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0"></script>
+		<script defer src="/search_index.ko.js"></script>
+		<script defer src="/search.js"></script>
+		<script defer src="/main.js"></script>
+	</head>
+
+	<body class="layout-documentation page-layout">
+		<nav class="navbar is-transparent is-centered has-shadow is-spaced">
+			<div class="container">
+				<div class="navbar-brand">
+					<a class="navbar-item" href="&#x2F;">
+						<b>Lisp Korea ☯ 🇰🇷</b>
+					</a>
+
+					<div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+
+				<div id="navbarExampleTransparentExample" class="navbar-menu">
+					<div class="navbar-start">
+						<!-- ref: https://fontawesome.com/icons?d=gallery -->
+
+						<a class="navbar-item" href="&#x2F;posts">
+							<span class="icon has-text-primary">
+								<i class="fas fa-book"></i>
+							</span>
+							<span>Posts</span>
+						</a>
+
+						<a class="navbar-item" href="&#x2F;k-lisper">
+							<span class="icon is-success">
+								<i class="fas fa-pastafarianism"></i>
+							</span>
+							<span>K-Lisper</span>
+						</a>
+
+						<a class="navbar-item" href="&#x2F;commonlisp">
+							<span class="icon has-text-primary">
+								<img src="/res/icon/commonlisp.png">
+							</span>
+							<span>Common Lisp</span>
+						</a>
+
+						<a class="navbar-item" href="&#x2F;racket">
+							<span class="icon has-text-primary">
+								<img src="/res/icon/racket.svg">
+							</span>
+							<span>Racket</span>
+						</a>
+
+						<a class="navbar-item" href="&#x2F;clojure">
+							<span class="icon has-text-primary">
+								<img src="/res/icon/clojure.png">
+							</span>
+							<span>Clojure</span>
+						</a>
+
+						<a class="navbar-item" href="&#x2F;emacs">
+							<span class="icon has-text-primary">
+								<img src="/res/icon/EmacsIcon.svg">
+							</span>
+							<span>Emacs</span>
+						</a>
+
+						<a class="navbar-item" href="/etc">
+							<span class="icon has-text-primary">
+								<i class="fa-solid fa-music"></i>
+							</span>
+							<span>Etc</span>
+						</a>
+
+						<a class="navbar-item" href="/help">
+							<span class="icon has-text-primary">
+								<i class="fa-regular fa-comment"></i>
+							</span>
+							<span>Help</span>
+						</a>
+					</div>
+
+					<div class="navbar-end">
+						<button id="search-button" class="button is-light">
+							<span class="icon"><i class="fas fa-search"></i></span>
+						</button>
+
+						<div id="search-modal" class="modal">
+							<div class="modal-background"></div>
+							<div class="modal-content" style="min-height: 70%; max-height: 70%; ">
+								<div class="box">
+									<div class="field">
+										<p class="control has-icons-left">
+											<input id="search-input" class="input is-medium" type="text" placeholder="Search...">
+											<span class="icon is-small is-left">
+												<i class="fas fa-search"></i>
+											</span>
+										</p>
+									</div>
+									<div id="search-results" style="overflow-y: auto;"></div>
+								</div>
+							</div>
+							<button id="close-modal" class="modal-close is-large" aria-label="close"></button>
+						</div>
+
+						<a class="navbar-item" href="/feed.xml">
+							<i class="fas fa-rss-square"></i>
+						</a>
+						<a class="navbar-item " href="https://github.com/lispkorea/lispkorea.github.io/">
+							<i class="fab fa-github"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="content container is-fluid">
+				
+<h1 class="title">
+  greenlabs
+</h1>
+
+
+
+<div class="post">
+  <p><a href="https://www.youtube.com/@greenlabs_official">Youtube</a> filter by lisp</p>
+<ul>
+<li>liftIO 2021
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Qko2wNJparY">김상현: REPL, Clojure의 슈퍼파워</a></li>
+</ul>
+</li>
+<li>(Clojure) 2022 meetup+ greenlabs
+<ul>
+<li><a href="https://www.youtube.com/watch?v=BdSoNmWksuk">live</a></li>
+<li><a href="https://www.youtube.com/watch?v=le0_e0CTlU4">남현우 Opening</a></li>
+<li><a href="https://www.youtube.com/watch?v=ZpmCoLLn5S4">김상현: EDN(extensible data notation)과 Clojure 한 스푼</a></li>
+<li><a href="https://www.youtube.com/watch?v=2bIpCf53x6w">박연오: Clojure 코드는 정말 읽기 어려운가?</a></li>
+<li><a href="https://www.youtube.com/watch?v=oQh-fJZccjo">이종립: Clojure에 빠진 사람 Vim푸라기라도 잡는다</a></li>
+<li><a href="https://www.youtube.com/watch?v=ETpUtTBHIC8">장효진: Functor in Clojure</a></li>
+<li><a href="https://www.youtube.com/watch?v=ZFzz9J1vnrM">한만영: 재미로 보는 Clojure vs Elixir</a></li>
+</ul>
+</li>
+<li>Dev Dive 2022
+<ul>
+<li><a href="https://www.youtube.com/watch?v=VXqiLvf_uWw">남현우: 함수형 개발자로 성장하기</a></li>
+<li><a href="https://www.youtube.com/watch?v=CCo7T3m6LLM">권정인: 모노레포 희망편 (Feat.Polylith)</a></li>
+<li><a href="https://www.youtube.com/watch?v=6mNMmlzwsic">이주빈: read-eval-print-loop</a></li>
+<li><a href="https://www.youtube.com/watch?v=CsbBuE_MF2U">최경식: 모노레포_마이크로 아키텍처를 지향하며</a></li>
+</ul>
+</li>
+</ul>
+
+</div><!-- post -->
+
+			</div><!-- /.content -->
+		</div>
+	</body>
+</html>

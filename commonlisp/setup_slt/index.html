@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+	<head>
+		<meta charset="utf-8">
+		<title>lispkorea</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="naver-site-verification" content="8264ac442137ef0c52727372d422237f2c9e6e29">
+
+		<link rel="icon" href="/favicon.svg" type="image/x-icon">
+		<link rel="icon" href="/favicon.svg" type="image/x-icon">
+		<link rel="alternate" type="application/atom+xml" title="Atom" href="&#x2F;feed">
+		<link rel="stylesheet" href="/main.css">
+
+		<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0"></script>
+		<script defer src="/search_index.ko.js"></script>
+		<script defer src="/search.js"></script>
+		<script defer src="/main.js"></script>
+	</head>
+
+	<body class="layout-documentation page-layout">
+		<nav class="navbar is-transparent is-centered has-shadow is-spaced">
+			<div class="container">
+				<div class="navbar-brand">
+					<a class="navbar-item" href="&#x2F;">
+						<b>Lisp Korea ☯ 🇰🇷</b>
+					</a>
+
+					<div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+
+				<div id="navbarExampleTransparentExample" class="navbar-menu">
+					<div class="navbar-start">
+						<!-- ref: https://fontawesome.com/icons?d=gallery -->
+
+						<a class="navbar-item" href="&#x2F;posts">
+							<span class="icon has-text-primary">
+								<i class="fas fa-book"></i>
+							</span>
+							<span>Posts</span>
+						</a>
+
+						<a class="navbar-item" href="&#x2F;k-lisper">
+							<span class="icon is-success">
+								<i class="fas fa-pastafarianism"></i>
+							</span>
+							<span>K-Lisper</span>
+						</a>
+
+						<a class="navbar-item" href="&#x2F;commonlisp">
+							<span class="icon has-text-primary">
+								<img src="/res/icon/commonlisp.png">
+							</span>
+							<span>Common Lisp</span>
+						</a>
+
+						<a class="navbar-item" href="&#x2F;racket">
+							<span class="icon has-text-primary">
+								<img src="/res/icon/racket.svg">
+							</span>
+							<span>Racket</span>
+						</a>
+
+						<a class="navbar-item" href="&#x2F;clojure">
+							<span class="icon has-text-primary">
+								<img src="/res/icon/clojure.png">
+							</span>
+							<span>Clojure</span>
+						</a>
+
+						<a class="navbar-item" href="&#x2F;emacs">
+							<span class="icon has-text-primary">
+								<img src="/res/icon/EmacsIcon.svg">
+							</span>
+							<span>Emacs</span>
+						</a>
+
+						<a class="navbar-item" href="/etc">
+							<span class="icon has-text-primary">
+								<i class="fa-solid fa-music"></i>
+							</span>
+							<span>Etc</span>
+						</a>
+
+						<a class="navbar-item" href="/help">
+							<span class="icon has-text-primary">
+								<i class="fa-regular fa-comment"></i>
+							</span>
+							<span>Help</span>
+						</a>
+					</div>
+
+					<div class="navbar-end">
+						<button id="search-button" class="button is-light">
+							<span class="icon"><i class="fas fa-search"></i></span>
+						</button>
+
+						<div id="search-modal" class="modal">
+							<div class="modal-background"></div>
+							<div class="modal-content" style="min-height: 70%; max-height: 70%; ">
+								<div class="box">
+									<div class="field">
+										<p class="control has-icons-left">
+											<input id="search-input" class="input is-medium" type="text" placeholder="Search...">
+											<span class="icon is-small is-left">
+												<i class="fas fa-search"></i>
+											</span>
+										</p>
+									</div>
+									<div id="search-results" style="overflow-y: auto;"></div>
+								</div>
+							</div>
+							<button id="close-modal" class="modal-close is-large" aria-label="close"></button>
+						</div>
+
+						<a class="navbar-item" href="/feed.xml">
+							<i class="fas fa-rss-square"></i>
+						</a>
+						<a class="navbar-item " href="https://github.com/lispkorea/lispkorea.github.io/">
+							<i class="fab fa-github"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="content container is-fluid">
+				
+<h1 class="title">
+  Setup SLT
+</h1>
+
+
+
+<div class="post">
+  <ul>
+<li>
+<p><a href="https://www.jetbrains.com/idea/download/">IntelliJ IDEA 커뮤니티 버전 다운로드</a></p>
+<ul>
+<li>사이트 상단에는 Ultimate버전이</li>
+<li>아래쪽에 IntelliJ IDEA Community Edition 이 있다.</li>
+</ul>
+</li>
+<li>
+<p>IntelliJ에서 플러그인 검색 <code>SLT</code> 후 설치.</p>
+<ul>
+<li>메뉴바에서 File &gt; Settings &gt; Languages &amp; Frameworks &gt; Common Lisp SDKs &gt; 추가
+<ul>
+<li>SBCL
+<ul>
+<li>name: "SBCL"</li>
+<li>executable: <code>sbcl</code> 실행파일 위치</li>
+<li>core: <code>sbcl.core</code> 위치</li>
+<li>quicklisp path: <code>quicklisp/setup.lisp</code> 위치</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://github.com/Enerccio/SLT/wiki/User-Guide#manual-installation">설치방법(영문)</a></li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/Enerccio/SLT/wiki/User-Guide">https://github.com/Enerccio/SLT/wiki/User-Guide</a></p>
+</li>
+</ul>
+<h2 id="dancugki">단축키</h2>
+<table><thead><tr><th>Shortcut</th><th>평가</th></tr></thead><tbody>
+<tr><td>Ctrl + Alt + <code>T</code></td><td><strong>현재 파일</strong></td></tr>
+<tr><td>Ctrl + Alt + <code>F</code></td><td><strong>현재 S-Expression</strong></td></tr>
+<tr><td>Ctrl + Alt + <code>A</code></td><td>Top Level</td></tr>
+<tr><td>Ctrl + Alt + <code>R</code></td><td>선택영역</td></tr>
+<tr><td>Ctrl + Alt + <code>E</code></td><td>이전 S-Expression</td></tr>
+<tr><td>Ctrl + Alt + <code>Q</code></td><td>다음 S-Expression</td></tr>
+</tbody></table>
+<table><thead><tr><th>Shortcut</th><th>매크로 확장</th></tr></thead><tbody>
+<tr><td>Ctrl + Alt + Shift + <code>F</code></td><td><strong>Macroexpand</strong></td></tr>
+<tr><td>Ctrl + Alt + Shift + <code>R</code></td><td>Macroexpand 1</td></tr>
+<tr><td>Ctrl + Alt + Shift + <code>E</code></td><td>Macroexpand All</td></tr>
+</tbody></table>
+<table><thead><tr><th>Keymap: Windows</th><th>Keymap: Visual Studio</th><th>기타</th></tr></thead><tbody>
+<tr><td>Ctrl + Alt + <code>H</code></td><td></td><td>CLHS</td></tr>
+<tr><td>Ctrl + B</td><td>F12</td><td>정의로 이동</td></tr>
+<tr><td>Ctrl + Alt + Left</td><td>Ctrl + -</td><td>navigate backwards</td></tr>
+</tbody></table>
+<h2 id="gita">기타</h2>
+<p>영문으로 되돌릴려면: Menubar File &gt; Settings &gt; Plugin &gt; <code>Korean Language Pack / 한국어 언어 팩</code> &gt; 체크 해제</p>
+
+</div><!-- post -->
+
+<hr />
+<script src="https://utteranc.es/client.js"
+        repo="lispkorea/lispkorea.post.comment"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<hr />
+
+			</div><!-- /.content -->
+		</div>
+	</body>
+</html>

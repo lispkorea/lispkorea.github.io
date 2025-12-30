@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://lispkorea.github.io/sitemap.xml
+
+# ref: https://searchadvisor.naver.com/guide/seo-basic-robots
